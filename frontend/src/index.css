@@ -1,0 +1,74 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background-color: #f2f2f2;
+  overflow-x: hidden;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 100%;
+}
+
+/* Extra large screens, TV (1201px and more) */
+@media (min-width: 1201px) {
+  html {
+    font-size: 110%;
+  }
+}
+
+/* Desktops, large screens (1025px - 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+/* Small screens, laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+/* iPads, Tablets (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+/* Mobile devices (320px - 480px) */
+@media (max-width: 480px) {
+  html {
+    font-size: 70%;
+  }
+  body {
+    padding-top: 4rem;
+  }
+}

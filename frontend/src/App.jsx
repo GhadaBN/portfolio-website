@@ -9,7 +9,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <Navbar/>
       <ScrollToTop />
       <Routes>

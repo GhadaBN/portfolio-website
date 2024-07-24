@@ -1,0 +1,37 @@
+.header{
+    width: 98%;
+    height: 90vh;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.hero-frame{
+  position: fixed;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  padding-top: 50px;
+  height: 100vh;
+  z-index:100;
+}
+.title-project{
+  font-family: SangBleuSerif;
+  font-size: 4rem;
+  vertical-align: baseline;
+}
+.line{
+  text-align: center;
+}
+.line li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.tomato-icon{
+  width:4rem;
+}

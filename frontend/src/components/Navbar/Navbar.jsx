@@ -3,11 +3,8 @@ import "./Navbar.css"
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="home-container">
+      <div className="logo-container">
         <p>Home</p>
-      </div>
-      <div className="about-container">
-        <li className="about">About</li>
       </div>
 
 

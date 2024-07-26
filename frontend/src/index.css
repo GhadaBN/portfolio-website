@@ -9,6 +9,13 @@
 }
 
 @font-face {
+  font-family: "Sohne Breit";
+  font-style: sans-serif;
+  font-weight: bold;
+  src: url("../src/assets/SohneBreit-Dreiviertelfett.otf");
+}
+
+@font-face {
   font-family: "Monument Extended";
   font-style: normal;
   font-weight: bold;
@@ -34,7 +41,7 @@ body {
   min-height: 100vh;
   min-width: 100vw;
   overflow-x: hidden;
-  background-color: #f5f5f1;
+  background-color: #fffff4;
   color: #1d1d1d;
 }
 
@@ -42,9 +49,7 @@ a {
   text-decoration: none;
   color: #1d1d1d;
 }
-.span{
-  vertical-align: baseline;
-}
+
 .app {
   width: 98%;
   margin: auto;
@@ -54,8 +59,6 @@ a {
 li {
   list-style: none;
 }
-
-
 
 html {
   font-size: 100%;

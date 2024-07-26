@@ -1,37 +1,72 @@
-.header{
-    width: 98%;
-    height: 90vh;
-    margin: auto;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-
+.header {
+  width: 98%;
+  height: 90vh;
+  margin: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
-.hero-frame{
+.hero-frame {
   position: fixed;
-  left: 0;
-  top: 50%;
   width: 100%;
-  padding-top: 50px;
+  padding-top: 1rem;
   height: 100vh;
-  z-index:100;
+  z-index: 100;
 }
-.title-project{
-  font-family: SangBleuSerif;
+
+.title-project {
+  font-family: Sohne Breit;
   font-size: 4rem;
+  line-height: 1.1;
   vertical-align: baseline;
 }
-.line{
+
+.line {
   text-align: center;
 }
+
 .line li {
-  display: inline-block;
-  margin-right: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
 }
 
-.tomato-icon{
-  width:4rem;
+.line li img {
+  display: inline-block;
+  width: auto;
+  margin: 0 10px 0 10px;
+}
+
+#line-1 .hot_sticker {
+  height: 5rem;
+}
+.spiral-icon {
+  height: 2.5rem;
+}
+.love-message {
+  height: 4.5rem;
+  position: relative;
+  top: -0.2rem;
+}
+
+.icon {
+  height: 3.5rem;
+}
+
+.thumbnail {
+  height: 4rem;
+}
+#line-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#line-1 li {
+  display: inline-flex;
+  align-items: baseline;
 }

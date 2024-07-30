@@ -1,0 +1,124 @@
+[
+  {
+    "id": "tomato-social-club",
+    "title": "Tomato Social Club",
+    "type": ["Web Development"],
+    "description": ["Description for project one"],
+    "photos": ["/images/photo1.jpg", "/images/photo2.jpg"],
+    "videos": ["/videos/video1.mp4"]
+  },
+  {
+    "id": "pour-decisions",
+    "title": "Pour Decisions",
+    "type": ["Web Development"],
+    "description": ["Description for project one"],
+    "photos": ["/images/photo3.jpg"],
+    "videos": []
+  },
+  {
+    "id": "fluffy-dog",
+    "title": "Fluffy Dog",
+    "type": ["Web Development"],
+    "description": [
+      "Grocery delivery services are booming. And they all only talk about one thing: speed.",
+      "With a different approach. A very slow one, Gorillas serves up an arthouse short film on YouTube",
+      "that is about as long as the Gorillas delivery time: 8 minutes. \"Red Cabbage\" tells the story",
+      "of Rod Kohl, who gets forgotten on a night bus and meets all sorts of strangers. He takes the",
+      "audience into a cosmos that is very popular with the young target group and in which time",
+      "doesn't matter: the Berlin night. The social blockbuster is full of humorous details such as",
+      "a fake bumper ad, weird side stories and, above all, hidden voucher codes that encourage",
+      "people to order and watch the film. Over and over again."
+    ],
+    "photos": ["/images/photo3.jpg"],
+    "videos": []
+  },
+  {
+    "id": "dev-roast",
+    "title": "Dev Roast",
+    "type": ["Web Development"],
+    "description": [
+      "Grocery delivery services are booming. And they all only talk about one thing: speed.",
+      "With a different approach. A very slow one, Gorillas serves up an arthouse short film on YouTube",
+      "that is about as long as the Gorillas delivery time: 8 minutes. \"Red Cabbage\" tells the story",
+      "of Rod Kohl, who gets forgotten on a night bus and meets all sorts of strangers. He takes the",
+      "audience into a cosmos that is very popular with the young target group and in which time",
+      "doesn't matter: the Berlin night. The social blockbuster is full of humorous details such as",
+      "a fake bumper ad, weird side stories and, above all, hidden voucher codes that encourage",
+      "people to order and watch the film. Over and over again."
+    ],
+    "photos": ["/images/photo3.jpg"],
+    "videos": []
+  },
+  {
+    "id": "gorillas-delivery",
+    "title": "Gorillas Delivery",
+    "type": ["Graphic Design", "Art Direction"],
+    "description": [
+      "Grocery delivery services are booming. And they all only talk about one thing: speed.",
+      "With a different approach. A very slow one, Gorillas serves up an arthouse short film on YouTube",
+      "that is about as long as the Gorillas delivery time: 8 minutes. \"Red Cabbage\" tells the story",
+      "of Rod Kohl, who gets forgotten on a night bus and meets all sorts of strangers. He takes the",
+      "audience into a cosmos that is very popular with the young target group and in which time",
+      "doesn't matter: the Berlin night. The social blockbuster is full of humorous details such as",
+      "a fake bumper ad, weird side stories and, above all, hidden voucher codes that encourage",
+      "people to order and watch the film. Over and over again."
+    ],
+    "photos": ["/images/photo3.jpg"],
+    "videos": []
+  },
+  {
+    "id": "bundesliga",
+    "title": "Bundesliga",
+    "type": ["Graphic Design", "Art Direction"],
+    "description": [
+      "At the top of the German football league, the Bundesliga is Germany's primary football competition.",
+      "For its season finale, we were in charge of making a design toolkit",
+      "to be used across Bundesliga digital media and Tv channels."
+    ],
+    "photos": ["/images/photo3.jpg"],
+    "videos": []
+  },
+  {
+    "id": "adidas",
+    "title": "Adidas SS20",
+    "type": ["Graphic Design"],
+    "description": [
+      "During my internship at Atttd studio design, I was part of the design team working",
+      "working on Adidas Uniforia Pack SS20.",
+      "The visual language uses principles of arts and crafts born out of the collection’s artsy design markers.",
+      "All paint strokes were handcrafted and digitised through a process that mixes analogue and digital techniques,",
+      "drawing a parallel between the imperfect nature of sports and arts.",
+      "The retail concept was transformed into a flexible global toolkit catering different global market realities.",
+      "From small scale to flagship executions."
+    ],
+    "photos": ["/images/photo3.jpg"],
+    "videos": []
+  },
+  {
+    "id": "bmw",
+    "title": "BMW THE 2 Active Tourer",
+    "type": ["Art Direction"],
+    "description": [
+      "Winter 2021 - Grocery delivery in minutes became the new thing.",
+      "And since everyone had the same exact focus, Gorillas needed to stand out by focusing on something else: empathy.",
+      "This story was told across all channels and touch points.",
+      "Using real human insights, that spoke to all of our target groups, no matter where they were celebrating the holidays."
+    ],
+    "photos": ["/images/photo3.jpg"],
+    "videos": []
+  },
+  {
+    "id": "tinder",
+    "title": "Tinder",
+    "type": ["Student Work", "Art Direction", "Graphic Design"],
+    "description": [
+      "The idea of finding \"the one\" is a socially romanticized view of relationships.",
+      "Tinder aims to shift this perspective by suggesting that there isn't just one perfect match for each of us;",
+      "instead, anyone could be \"the one\" — whether they are the funny one, the attractive one, or the intelligent one.",
+      "To illustrate this, imagine a Waldo puzzle made entirely of Waldos,",
+      "symbolizing how effortlessly you can find not just one, but many perfect matches."
+    ],
+    "photos": ["/images/photo3.jpg"],
+    "videos": []
+  }
+]

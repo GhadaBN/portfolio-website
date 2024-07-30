@@ -6,7 +6,13 @@ import projectData from "../../assets/projectsData.json";
 
 const Project = () => {
   let { projectId } = useParams();
-  const project = projectData.find((project) => project.id === projectId);
+  const projectIndex = projectData.findIndex(
+    (project) => project.id === projectId
+  );
+  const project = projectData[projectIndex];
+  const prevProjectId = projectData[projectIndex - 1]?.id;
+  const nextProjectId = projectData[projectIndex + 1]?.id;
+
   return (
     <div className="project-page">
       {project && (
@@ -27,6 +33,18 @@ const Project = () => {
           </div>
         </>
       )}
+      <div className="navigation-buttons">
+        {prevProjectId && (
+          <Link to={`/project/${prevProjectId}`} className="nav-button">
+            Previous
+          </Link>
+        )}
+        {nextProjectId && (
+          <Link to={`/project/${nextProjectId}`} className="nav-button">
+            Next
+          </Link>
+        )}
+      </div>
     </div>
   );
 };

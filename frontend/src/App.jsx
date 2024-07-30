@@ -5,7 +5,7 @@ import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
 import About from "./pages/About/About";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
-import Project from "./pages/Project/Project";
+import Project from "./pages/ProjectPage/Project";
 const App = () => {
   return (
     <div className="app">

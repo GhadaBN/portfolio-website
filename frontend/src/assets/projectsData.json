@@ -98,6 +98,8 @@
     "id": "bmw",
     "title": "BMW THE 2 Active Tourer",
     "type": ["Art Direction"],
+    "role": "Art Direction, Digital campaign German and French Market",
+    "agency": "Mediamonks",
     "description": [
       "Winter 2021 - Grocery delivery in minutes became the new thing.",
       "And since everyone had the same exact focus, Gorillas needed to stand out by focusing on something else: empathy.",
@@ -111,6 +113,7 @@
     "id": "tinder",
     "title": "Tinder",
     "type": ["Student Work", "Art Direction", "Graphic Design"],
+    "role": "Concept, Artwork",
     "description": [
       "The idea of finding \"the one\" is a socially romanticized view of relationships.",
       "Tinder aims to shift this perspective by suggesting that there isn't just one perfect match for each of us;",

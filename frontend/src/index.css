@@ -37,10 +37,10 @@
 }
 
 body {
-  padding-top: 5.5rem;
-  min-height: 100vh;
+  padding-top: 3rem;
+  min-height: 90vh;
   min-width: 100vw;
-  overflow-x: hidden;
+  overflow: hidden;
   background-color: #fffff4;
   color: #1d1d1d;
 }
@@ -54,6 +54,7 @@ a {
   width: 98%;
   margin: auto;
   padding-top: 0;
+  overflow: auto;
 }
 
 li {

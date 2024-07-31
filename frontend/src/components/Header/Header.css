@@ -1,7 +1,7 @@
 .header {
   width: 98%;
-  height: 90vh;
-  margin: 2rem auto;
+  height: 80vh;
+  margin: 1rem auto;
   position: relative;
   display: flex;
   align-items: center;
@@ -10,22 +10,28 @@
 }
 
 .hero-frame {
-  position: fixed;
+  position: relative;
   width: 100%;
-  padding-top: 1rem;
-  height: 100vh;
+  padding: 1rem;
+  height: auto;
   z-index: 100;
 }
 
 .title-project {
   font-family: Sohne Breit;
-  font-size: 4rem;
+  font-size: 4.5rem;
   line-height: 1.1;
   vertical-align: baseline;
 }
 
 .line {
   text-align: center;
+}
+
+.line li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .line li {

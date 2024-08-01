@@ -17,19 +17,25 @@ const Project = () => {
     <div className="project-page">
       {project && (
         <>
-          <div className="header-project">
+          <div className="project-name-container">
             <h2 className="project-name">{project.title}</h2>
-            <div className="tags-container">
-              {project.type.map((type, index) => (
-                <p key={index} className="type-tag">
-                  {type}
-                </p>
-              ))}
-            </div>
           </div>
-          <div className="intro-text-container">
-            <h3 className="">Project Details</h3>
-            <p className="intro-text">{project.description.join(" ")}</p>
+          <div className="intro-sections-wrapper">
+            <div className="left-section">
+              <div className="tags-container">
+                {project.type.map((type, index) => (
+                  <h3 key={index} className="type-tag">
+                    {type}
+                  </h3>
+                ))}
+              </div>
+            </div>
+            <div className="right-section">
+              <div className="project-info-container">
+                <h3 className="project-info-title">Project Info</h3>
+                <p className="project-info-text">{project.description.join(" ")}</p>
+              </div>
+            </div>
           </div>
         </>
       )}

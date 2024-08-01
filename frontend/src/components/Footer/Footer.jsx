@@ -5,10 +5,11 @@ const Footer = () => {
   return (
     <div className="footer">
       {/* <div className="link-container">
-        <li className="footer-link">About</li>
-      </div> */}
-      <div className="link-container">
         <li className="footer-link">Search</li>
+      </div> */}
+      <div className="circle-container">
+        <div className="circle-1"></div>
+        <div className="circle-2"></div>
       </div>
     </div>
   );

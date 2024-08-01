@@ -1,7 +1,4 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -14,19 +11,17 @@
   font-weight: bold;
   src: url("../src/assets/SohneBreit-Dreiviertelfett.otf");
 }
-
 @font-face {
-  font-family: "Monument Extended";
-  font-style: normal;
-  font-weight: bold;
-  src: url("../src/assets/PPMonumentExtended-Black.woff");
+  font-family: "Sohne Breit Leicht";
+  font-style: sans-serif;
+  font-weight: 200;
+  src: url("../src/assets/SohneBreit-Leicht.otf");
 }
 
 @font-face {
-  font-family: "SangBleuSerif";
-  font-style: Serif;
-  font-weight: light;
-  src: url("../src/assets/SangBleuSerif-Light.ttf");
+  font-family: "DM Sans";
+  font-style: sans-serif;
+  src: url("../src/assets/DMSans-VariableFont_opsz\,wght.ttf");
 }
 
 * {
@@ -61,6 +56,24 @@ li {
   list-style: none;
 }
 
+p {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: "Sohne Breit";
+  font-size: 6.5rem;
+  line-height: 1.1;
+}
+
+h3 {
+  font-family: "Sohne Breit Leicht";
+  font-size: 1.1rem;
+  line-height: 1.1;
+}
 html {
   font-size: 100%;
 }

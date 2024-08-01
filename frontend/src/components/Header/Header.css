@@ -19,7 +19,7 @@
 
 .title-project {
   font-family: Sohne Breit;
-  font-size: 4.5rem;
+  font-size: 4.3rem;
   line-height: 1.1;
   vertical-align: baseline;
 }
@@ -49,6 +49,7 @@
 
 #line-1 .hot_sticker {
   height: 5rem;
+  margin: 0 2px 0 5px;
 }
 .spiral-icon {
   height: 2.5rem;
@@ -72,7 +73,7 @@
   justify-content: center;
 }
 
-#line-1 li {
+#line-1 li a {
   display: inline-flex;
   align-items: baseline;
 }

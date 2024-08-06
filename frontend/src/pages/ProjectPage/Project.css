@@ -28,7 +28,9 @@
 .project-info-text {
   width: 95%;
 }
-
+.paragraph-text {
+  margin-bottom: 0.5rem;
+}
 .tags-container {
   display: inline-flex;
   justify-content: space-around;
@@ -42,4 +44,46 @@
   border: 2px solid black;
   border-radius: 1.5rem;
   box-shadow: -3px 4px 0px black;
+}
+
+.details-wrapper {
+  width: 80%;
+  gap: 20px;
+  margin-left: 1rem;
+
+  justify-content: flex-start;
+}
+.details {
+  width: 50%;
+}
+.navigation-buttons {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin: 2rem auto;
+  justify-content: space-between;
+  padding: 1rem;
+
+  align-items: center;
+}
+.nav-button {
+  padding: 0.2rem 1.5rem;
+  border: 2px solid black;
+  border-radius: 1.5rem;
+  box-shadow: -3px 4px 0px black;
+}
+
+.video-wrapper {
+  margin: 2rem auto;
+  position: relative;
+  border-radius: 0.5rem;
+  height: auto;
+  overflow: hidden;
+  max-width: 80%;
+}
+.project-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
 }

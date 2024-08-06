@@ -54,17 +54,21 @@
     "title": "Gorillas Delivery",
     "type": ["Graphic Design", "Art Direction"],
     "description": [
-      "Grocery delivery services are booming. And they all only talk about one thing: speed.",
-      "With a different approach. A very slow one, Gorillas serves up an arthouse short film on YouTube",
-      "that is about as long as the Gorillas delivery time: 8 minutes. \"Red Cabbage\" tells the story",
-      "of Rod Kohl, who gets forgotten on a night bus and meets all sorts of strangers. He takes the",
-      "audience into a cosmos that is very popular with the young target group and in which time",
-      "doesn't matter: the Berlin night. The social blockbuster is full of humorous details such as",
-      "a fake bumper ad, weird side stories and, above all, hidden voucher codes that encourage",
-      "people to order and watch the film. Over and over again."
+      "Grocery delivery services are booming and they all only talk about one thing: speed.With a different approach, a very slow one, Gorillas serves up an arthouse short film on YouTube that is about as long as the Gorillas delivery time: 8 minutes. \"Red Cabbage\" tells the story of Rod Kohl, who gets forgotten on a night bus and meets all sorts of strangers. He takes the audience into a cosmos that is very popular with the young target group and in which time doesn't matter: the Berlin night.",
+      "The social blockbuster is full of humorous details such as a fake bumper ad, weird side stories and, above all, hidden voucher codes that encourage people to order and watch the film. Over and over again."
     ],
+    "team": [
+      "ECD: Johannes Hicks",
+      "SrCW: Lia Hermann",
+      "SrAD: Annemarie Longtine",
+      "AD: Ghada Bennasr"
+    ],
+    "agency": "Agency: Mediamonks",
+    "client": "Client: Gorillas Delivery",
+    "awards": "Awards: ACD Junior Silver",
     "photos": ["/images/photo3.jpg"],
-    "videos": []
+    "videos": [],
+    "vimeoVideos": ["https://vimeo.com/737487952"]
   },
   {
     "id": "bundesliga",
@@ -80,19 +84,32 @@
   },
   {
     "id": "adidas",
-    "title": "Adidas SS20",
+    "title": "Adidas Uniforia",
     "type": ["Graphic Design"],
     "description": [
-      "During my internship at Atttd studio design, I was part of the design team working",
-      "working on Adidas Uniforia Pack SS20.",
-      "The visual language uses principles of arts and crafts born out of the collection’s artsy design markers.",
-      "All paint strokes were handcrafted and digitised through a process that mixes analogue and digital techniques,",
-      "drawing a parallel between the imperfect nature of sports and arts.",
-      "The retail concept was transformed into a flexible global toolkit catering different global market realities.",
-      "From small scale to flagship executions."
+      "During my internship at Atttd studio design, I was part of the design team working on Adidas Uniforia Pack SS20. The visual language uses principles of arts and crafts born out of the collection’s artsy design markers. All paint strokes were handcrafted and digitised through a process that mixes analogue and digital techniques, drawing a parallel between the imperfect nature of sports and arts. The retail concept was transformed into a flexible global toolkit catering different global market realities. From small scale to flagship executions."
     ],
     "photos": ["/images/photo3.jpg"],
-    "videos": []
+    "videos": ["/adidas_video.mp4"]
+  },
+  {
+    "id": "gorillas-eoy",
+    "title": "Gorillas EOY Campaign",
+    "type": ["Graphic Design", "Art Direction"],
+    "description": [
+      "Winter 2021, grocery delivery in minutes became the new thing. And since everyone had the same exact focus, Gorillas needed to stand out by focusing on something else: empathy. This story was told across all channels and touch points. Using real human insights, that spoke to all of our target groups, no matter where they were celebrating the holidays."
+    ],
+    "team": [
+      "ECD: Johannes Hicks",
+      "Senior AD: Annemarie Longtine",
+      "AD: Ghada Bennasr",
+      "CW: Kevin Chow"
+    ],
+    "agency": "Agency: Mediamonks",
+    "client": "Client: Gorillas Delivery",
+    "photos": ["/images/photo3.jpg"],
+    "videos": [],
+    "vimeoVideos": ["https://vimeo.com/743515516"]
   },
   {
     "id": "bmw",

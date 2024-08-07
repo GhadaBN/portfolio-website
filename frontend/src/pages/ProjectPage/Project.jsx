@@ -1,6 +1,5 @@
-import React from "react";
-import { useParams } from "react-router-dom";
-import { Link } from "react-router-dom";
+import React, { useEffect, useRef } from "react";
+import { useParams, Link } from "react-router-dom";
 import "./Project.css";
 import projectData from "../../assets/projectsData.json";
 import Plyr from "plyr-react";
@@ -14,13 +13,49 @@ const Project = () => {
   const project = projectData[projectIndex];
   const prevProjectId = projectData[projectIndex - 1]?.id;
   const nextProjectId = projectData[projectIndex + 1]?.id;
+  const titleRef = useRef(null);
+
+  useEffect(() => {
+    if (titleRef.current) {
+      const adjustFontSize = () => {
+        const containerWidth = titleRef.current.parentElement.offsetWidth;
+        const title = titleRef.current;
+        let fontSize = 140;
+        const minFontSize = 16 * 4.5;
+
+        title.style.fontSize = `${fontSize}px`;
+
+        while (title.scrollWidth > containerWidth && fontSize > minFontSize) {
+          fontSize -= 1;
+          title.style.fontSize = `${fontSize}px`;
+        }
+
+        if (fontSize <= minFontSize) {
+          title.style.whiteSpace = "normal";
+        } else {
+          title.style.whiteSpace = "nowrap";
+        }
+      };
+
+      adjustFontSize();
+
+      const resizeObserver = new ResizeObserver(adjustFontSize);
+      resizeObserver.observe(titleRef.current.parentElement);
+
+      return () => {
+        resizeObserver.disconnect();
+      };
+    }
+  }, [project]);
 
   return (
     <div className="project-page">
       {project && (
         <>
           <div className="project-name-container">
-            <h2 className="project-name">{project.title}</h2>
+            <h2 className="project-name" ref={titleRef}>
+              {project.title}
+            </h2>
           </div>
           <div className="intro-sections-wrapper">
             <div className="left-section">

@@ -5,27 +5,29 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  /* background-color: black;
+  color: white; */
 }
 
 .project-name-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem auto;
+  margin: 2.5rem auto;
   width: 100%;
 }
 
 .project-name {
   text-transform: uppercase;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   overflow: hidden;
   display: inline-block;
   text-align: center;
 }
 
 .intro-sections-wrapper {
-  width: 98%;
-  margin: auto;
+  width: 95%;
+  margin: 0 auto 2rem auto;
   display: flex;
 }
 
@@ -35,17 +37,17 @@
 }
 
 .project-info-text {
-  width: 95%;
+  width: 90%;
 }
 
 .paragraph-text {
-  margin: 1.5rem 1rem 0.5rem 0.5rem;
+  margin: 0.5rem 0rem 0.5rem 0.5rem;
 }
 
-.tags-container {
+.tags-container,
+.project-info-container {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
   margin-left: 1rem;
 }
 
@@ -54,25 +56,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem 1.5rem 0.2rem 0;
+  margin: 0rem 1.5rem 1rem 0;
   padding: 0.2rem;
   border: 2px solid black;
   border-radius: 1.5rem;
   box-shadow: -3px 4px 0px black;
   white-space: nowrap;
   text-align: center;
-  width: 13vw;
+  width: 16vw;
 }
 
 .details-wrapper {
+  margin-top: 0.5rem;
   width: 80%;
-  gap: 20px;
   margin-left: 1rem;
   justify-content: flex-start;
 }
 
 .details {
-  width: 50%;
+  width: 70%;
 }
 
 .navigation-buttons {
@@ -92,7 +94,7 @@
 }
 
 .video-wrapper {
-  margin: 2rem auto;
+  margin: 4rem auto;
   position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -104,4 +106,40 @@
   height: 100%;
   object-fit: cover;
   border-radius: 0.5rem;
+}
+.video-wrapper-portrait {
+  margin: 4rem auto;
+  position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 24%;
+  object-fit: cover;
+}
+
+.photo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  position: relative;
+  overflow: hidden;
+  max-width: 95%;
+  height: auto;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+.photo-wrapper-80 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  max-width: 80%;
+}
+.img-project {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
 }

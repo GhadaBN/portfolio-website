@@ -2,73 +2,89 @@
   {
     "id": "tomato-social-club",
     "title": "Tomato Social Club",
-    "type": ["Web Development"],
-    "description": ["Description for project one"],
-    "photos": ["/images/photo1.jpg", "/images/photo2.jpg"],
-    "videos": ["/videos/video1.mp4"]
+    "type": ["Web Development", "Technology Stack"],
+    "description": [
+      "Tomato Social Club is a fullstack Web-first application for food delivery built using the MERN stack. This platform provides a seamless and intuitive experience for customers. With integrated Stripe payment processing, Tomato Social Club ensures secure and efficient transactions.",
+      ""
+    ],
+    "technology": [
+      "React.js: Builds the interactive and responsive user interface.",
+      "Node.js: Serves as the runtime environment for executing server-side code.",
+      "Express.js: Handles routing, middleware, and server logic.",
+      "MongoDB: Utilized as the NoSQL database to store user, restaurant, and order data.",
+      "Payment Integration with Stripe API: Facilitates secure and efficient payment processing for transactions on the platform."
+    ],
+    "photoFull": ["/tomato_social_screen.png"],
+    "demo": ["https://tomato-social-frontend.onrender.com/"]
   },
   {
     "id": "pour-decisions",
     "title": "Pour Decisions",
-    "type": ["Web Development"],
-    "description": ["Description for project one"],
-    "photos": ["/images/photo3.jpg"],
-    "videos": []
+    "type": ["Web Development", "Technology Stack"],
+    "description": [
+      "Pour Decisions is a cocktail recipes application built using React.js. With a focus on user-generated content, this application allows you to add your own recipes which you can save to your cocktail collection. The user can also browse through a prexisting collection of recipes. "
+    ],
+    "technology": [
+      "React.js: Provides a dynamic and responsive user interface, allowing for smooth interactions and updates.",
+      "In-Browser Storage: User-generated recipes and application data are stored temporarily in the browser. Data will be lost upon refreshing the page."
+    ],
+    "photoFull": ["/pour_decisions_screen.png"],
+    "demo": ["https://pour-decisions.netlify.app/"]
   },
   {
     "id": "fluffy-dog",
     "title": "Fluffy Dog",
-    "type": ["Web Development"],
+    "type": ["Web Development", "Technology Stack"],
     "description": [
-      "Grocery delivery services are booming. And they all only talk about one thing: speed.",
-      "With a different approach. A very slow one, Gorillas serves up an arthouse short film on YouTube",
-      "that is about as long as the Gorillas delivery time: 8 minutes. \"Red Cabbage\" tells the story",
-      "of Rod Kohl, who gets forgotten on a night bus and meets all sorts of strangers. He takes the",
-      "audience into a cosmos that is very popular with the young target group and in which time",
-      "doesn't matter: the Berlin night. The social blockbuster is full of humorous details such as",
-      "a fake bumper ad, weird side stories and, above all, hidden voucher codes that encourage",
-      "people to order and watch the film. Over and over again."
+      "Fluffy Dog is a 2D game web application developed using DOM manipulation techniques and vanilla Javascript. Inspired by the classic Flappy Bird, this game brings a delightful twist with a charming canine protagonist. In Fluffy Dog, players guide the dog through a series of obstacles, aiming to achieve the highest score possible."
     ],
-    "photos": ["/images/photo3.jpg"],
-    "videos": []
+    "technology": [
+      "HTML5: Structures the game's content and elements.",
+      "CSS3: Styles the game, enhancing visual appeal and responsiveness.",
+      "JavaScript: Powers the game's logic and interactivity through DOM manipulation."
+    ],
+    "photoFull": [],
+    "photo80": ["/fluffy_dog_1.png"],
+    "videos": [],
+    "demo": ["https://fluffy-dog-game.netlify.app/"]
   },
   {
     "id": "dev-roast",
-    "title": "Dev Roast",
-    "type": ["Web Development"],
+    "title": "Developers Roast",
+    "type": ["Web Development", "Technology Stack"],
     "description": [
-      "Grocery delivery services are booming. And they all only talk about one thing: speed.",
-      "With a different approach. A very slow one, Gorillas serves up an arthouse short film on YouTube",
-      "that is about as long as the Gorillas delivery time: 8 minutes. \"Red Cabbage\" tells the story",
-      "of Rod Kohl, who gets forgotten on a night bus and meets all sorts of strangers. He takes the",
-      "audience into a cosmos that is very popular with the young target group and in which time",
-      "doesn't matter: the Berlin night. The social blockbuster is full of humorous details such as",
-      "a fake bumper ad, weird side stories and, above all, hidden voucher codes that encourage",
-      "people to order and watch the film. Over and over again."
+      "Dev Roast is an interactive web-first application game survey. It combines the power of React.js, Tailwind CSS, and a dynamic JSON server to deliver a seamless quiz experience."
     ],
-    "photos": ["/images/photo3.jpg"],
-    "videos": []
+    "technology": [
+      "React.js: Provides a dynamic and responsive user interface, allowing for smooth interactions and updates.",
+      "Tailwind CSS: Utilized for styling, offering a modern and customizable design framework.",
+      "JSON Server: Acts as a lightweight backend to serve quiz data to manage, update the questions and the users.",
+      "Axios: Used for making HTTP requests to the JSON server, enabling efficient data retrieval and updates."
+    ],
+    "photoFull": ["/dev_roast_screen.png"],
+    "videos": [],
+    "demo": ["https://dev-roast.netlify.app/"]
   },
   {
     "id": "gorillas-delivery",
     "title": "Gorillas Delivery",
     "type": ["Graphic Design", "Art Direction"],
     "description": [
-      "Grocery delivery services are booming and they all only talk about one thing: speed.With a different approach, a very slow one, Gorillas serves up an arthouse short film on YouTube that is about as long as the Gorillas delivery time: 8 minutes. \"Red Cabbage\" tells the story of Rod Kohl, who gets forgotten on a night bus and meets all sorts of strangers. He takes the audience into a cosmos that is very popular with the young target group and in which time doesn't matter: the Berlin night.",
+      "Grocery delivery services are booming and they all only talk about one thing: speed. With a different approach, a very slow one, Gorillas serves up an arthouse short film on YouTube that is about as long as the Gorillas delivery time: 8 minutes. \"Red Cabbage\" tells the story of Rod Kohl, who gets forgotten on a night bus and meets all sorts of strangers. He takes the audience into a cosmos that is very popular with the young target group and in which time doesn't matter: the Berlin night.",
       "The social blockbuster is full of humorous details such as a fake bumper ad, weird side stories and, above all, hidden voucher codes that encourage people to order and watch the film. Over and over again."
     ],
     "team": [
       "ECD: Johannes Hicks",
-      "SrCW: Lia Hermann",
-      "SrAD: Annemarie Longtine",
+      "Sr Creative: Lia Hermann",
+      "Sr Creative: Annemarie Longtine",
       "AD: Ghada Bennasr"
     ],
     "agency": "Agency: Mediamonks",
     "client": "Client: Gorillas Delivery",
     "awards": "Awards: ACD Junior Silver",
-    "photos": ["/images/photo3.jpg"],
-    "videos": [],
-    "vimeoVideos": ["https://vimeo.com/737487952"]
+    "photoFull": [],
+    "vimeoVideos": ["https://vimeo.com/737487952"],
+    "vimeoVideosPortrait": ["https://vimeo.com/742957831"]
   },
   {
     "id": "bundesliga",
@@ -77,7 +93,7 @@
     "description": [
       "At the top of the German football league, the Bundesliga is Germany's primary football competition. For its season finale, we were in charge of making a design toolkit, to be used across Bundesliga digital media and Tv channels."
     ],
-    "photos": ["/images/photo3.jpg"],
+    "photoFull": [],
     "videos": []
   },
   {
@@ -85,9 +101,12 @@
     "title": "Adidas Uniforia",
     "type": ["Graphic Design"],
     "description": [
-      "During my internship at Atttd studio design, I was part of the design team working on Adidas Uniforia Pack SS20. The visual language uses principles of arts and crafts born out of the collection’s artsy design markers. All paint strokes were handcrafted and digitised through a process that mixes analogue and digital techniques, drawing a parallel between the imperfect nature of sports and arts. The retail concept was transformed into a flexible global toolkit catering different global market realities. From small scale to flagship executions."
+      "During my internship at Atttd studio design, I was part of the design team working on Adidas Uniforia Pack SS20. The visual language uses principles of arts and crafts born out of the collection’s artsy design markers. All paint strokes were handcrafted and digitised through a process that mixes analogue and digital techniques, drawing a parallel between the imperfect nature of sports and arts.",
+      "The retail concept was transformed into a flexible global toolkit catering different global market realities. From small scale to flagship executions."
     ],
-    "photos": ["/images/photo3.jpg"],
+    "agency": "Design Agency: Attitude Studio",
+    "client": "Client: Adidas Football",
+    "photoFull": [],
     "videos": ["/adidas_video.mp4"]
   },
   {
@@ -99,13 +118,13 @@
     ],
     "team": [
       "ECD: Johannes Hicks",
-      "Senior AD: Annemarie Longtine",
+      "Sr Creative: Annemarie Longtine",
       "AD: Ghada Bennasr",
       "CW: Kevin Chow"
     ],
     "agency": "Agency: Mediamonks",
     "client": "Client: Gorillas Delivery",
-    "photos": ["/images/photo3.jpg"],
+    "photoFull": [],
     "videos": [],
     "vimeoVideos": ["https://vimeo.com/743515516"]
   },
@@ -114,24 +133,30 @@
     "title": "BMW",
     "type": ["Art Direction"],
     "role": "Art Direction, Digital campaign German and French Market",
-    "agency": "Mediamonks",
+    "agency": "Agency: Mediamonks",
     "description": [
       "Our campaign for the 2 Series Active Tourer is a testament to adaptability, mirroring the versatility of life itself. With a plug-and-play production approach, we created a multitude of adaptations, each tailored to different markets, target audiences, and customer journey stages.",
       "Despite it being a product launch campaign, we didn’t focus only on technical features but on what they can do for you. With many small stories, all coming from A TOUR CALLED LIFE."
     ],
-    "photos": ["/images/photo3.jpg"],
+    "photoFull": ["/images/photo3.jpg"],
     "videos": []
   },
   {
     "id": "tinder",
     "title": "Tinder",
     "type": ["Student Work", "Graphic Design", "Art Direction"],
-    "role": "Concept, Artwork",
+    "role": "Role: Concept, Artwork",
+    "team": [
+      "AD: Leonardo Bordovsky ",
+      "AD: Ghada Bennasr",
+      "CW: Stephan Körner"
+    ],
     "description": [
       "The idea of finding \"the one\" is a socially romanticized view of relationships. Tinder aims to shift this perspective by suggesting that there isn't just one perfect match for each of us; instead, anyone could be \"the one\" — whether they are the funny one, the attractive one, or the intelligent one.",
-      "To illustrate this, imagine a Waldo puzzle made entirely of Waldos, symbolizing how effortlessly you can find not just one, but many perfect matches."
+      "To illustrate this, we imagined a Waldo puzzle made entirely of Waldos, symbolizing how effortlessly you can find not just one, but many perfect matches."
     ],
-    "photos": ["/images/photo3.jpg"],
-    "videos": []
+    "photoFull": ["/tinder_1.jpg"],
+    "photo80": ["/tinder_2.jpg"],
+    "videos": ["/tinder_animation.mp4"]
   }
 ]

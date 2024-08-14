@@ -98,7 +98,7 @@ const Project = () => {
                       href={project.demo}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="type-tag demo-tag"
+                      className="demo-tag"
                     >
                       Demo Website
                     </a>

@@ -56,9 +56,8 @@
       "Dev Roast is an interactive web-first application game survey. It combines the power of React.js, Tailwind CSS, and a dynamic JSON server to deliver a seamless quiz experience."
     ],
     "technology": [
-      "React.js: Provides a dynamic and responsive user interface, allowing for smooth interactions and updates.",
-      "Tailwind CSS: Utilized for styling, offering a modern and customizable design framework.",
-      "JSON Server: Acts as a lightweight backend to serve quiz data to manage, update the questions and the users.",
+      "React.js: Provides a dynamic user interface, allowing for smooth interactions and updates. The application executes full CRUD operations through React components.",
+      "JSON Server: Serves as a lightweight backend, managing and updating questions and user data, which enables the application to handle CRUD operations seamlessly.",
       "Axios: Used for making HTTP requests to the JSON server, enabling efficient data retrieval and updates."
     ],
     "photoFull": ["/dev_roast_screen.png"],

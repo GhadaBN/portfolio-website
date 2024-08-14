@@ -52,20 +52,33 @@
 }
 
 .type-tag,
-.project-info-title {
+.project-info-title,
+.demo-tag {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0rem 1.5rem 1rem 0;
   padding: 0.2rem;
-  border: 2px solid black;
+
   border-radius: 1.5rem;
-  box-shadow: -3px 4px 0px black;
+
   white-space: nowrap;
   text-align: center;
   width: 16vw;
 }
 
+.type-tag,
+.project-info-title,
+.demo-tag {
+  border: 2px solid black;
+  box-shadow: -3px 4px 0px black;
+}
+.demo-tag {
+  color: #fffff4;
+  background-color: black;
+  border: 2px solid black;
+  box-shadow: -3px 4px 0px black;
+}
 .details-wrapper {
   margin-top: 0.5rem;
   width: 80%;

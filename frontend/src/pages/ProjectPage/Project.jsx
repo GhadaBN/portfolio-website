@@ -20,7 +20,7 @@ const Project = () => {
       const adjustFontSize = () => {
         const containerWidth = titleRef.current.parentElement.offsetWidth;
         const title = titleRef.current;
-        let fontSize = 140;
+        let fontSize = 170;
         const minFontSize = 16 * 4.5;
 
         title.style.fontSize = `${fontSize}px`;
@@ -71,6 +71,7 @@ const Project = () => {
                   <p className="client">{project.client}</p>
                   <p className="agency">{project.agency}</p>
                   <p className="award">{project.awards}</p>
+                  <p className="role">{project.role}</p>
                 </div>
                 <div className="details">
                   <div className="team-text">
@@ -79,11 +80,31 @@ const Project = () => {
                     ))}
                   </div>
                 </div>
+                <div className="technology-stack">
+                  <div className="stack-text">
+                    {project.technology?.map((tech, index) => (
+                      <p key={index}>{tech}</p>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
             <div className="right-section">
               <div className="project-info-container">
                 <h3 className="project-info-title">Project Info</h3>
+                <div className="demo-link">
+                  {project.demo && (
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="type-tag demo-tag"
+                    >
+                      Demo Website
+                    </a>
+                  )}
+                </div>
+
                 <div className="project-info-text">
                   {project.description.map((description, index) => (
                     <p key={index} className="paragraph-text">
@@ -95,6 +116,11 @@ const Project = () => {
             </div>
           </div>
           <div className="media-section">
+            {project.photoFull?.map((photo, index) => (
+              <div key={index} className="photo-wrapper">
+                <img src={photo} alt="" className="img-project" />
+              </div>
+            ))}
             {project.videos?.map((video, index) => (
               <div key={index} className="video-wrapper">
                 <video autoPlay muted loop className="project-video">
@@ -117,13 +143,11 @@ const Project = () => {
                   }}
                   options={{
                     controls: [
-                      "play-large",
                       "play",
                       "progress",
                       "current-time",
                       "mute",
                       "volume",
-                      "settings",
                     ],
                     vimeo: {
                       dnt: true,
@@ -133,6 +157,44 @@ const Project = () => {
                     },
                   }}
                 />
+              </div>
+            ))}
+            {project.vimeoVideosPortrait?.map((video, index) => (
+              <div key={index} className="video-wrapper-portrait">
+                <Plyr
+                  source={{
+                    type: "video",
+                    sources: [
+                      {
+                        src: video,
+                        provider: "vimeo",
+                      },
+                    ],
+                  }}
+                  options={{
+                    loop: {
+                      active: true,
+                    },
+                    controls: [
+                      "play",
+                      "progress",
+                      "current-time",
+                      "mute",
+                      "volume",
+                    ],
+                    vimeo: {
+                      dnt: true,
+                      title: false,
+                      byline: false,
+                      portrait: false,
+                    },
+                  }}
+                />
+              </div>
+            ))}
+            {project.photo80?.map((photo, index) => (
+              <div key={index} className="photo-wrapper-80">
+                <img src={photo} alt="" className="img-project" />
               </div>
             ))}
           </div>

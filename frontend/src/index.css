@@ -33,7 +33,7 @@
 }
 
 body {
-  padding-top: 3rem;
+  padding-top: 1.5rem;
   min-height: 90vh;
   min-width: 100vw;
   overflow-x: hidden;
@@ -58,8 +58,6 @@ li {
 }
 
 p {
-  /* font-family: "DM Sans"; */
-  /* font-weight: 450; */
   font-family: "Sohne Breit Leicht";
   font-size: 1rem;
   line-height: 1.3;

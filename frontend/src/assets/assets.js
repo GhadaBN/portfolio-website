@@ -13,6 +13,8 @@ import love_message_icon from "./love_message_icon.png";
 import bomb_icon from "./bomb_icon.png";
 import mouse_icon from "./mouse_pointer.png";
 import hands_icon from "./hands_icon.png";
+import hand_spinning_vid from "./hand_spinnig.mp4";
+import hand_static from "./hand_static.avif";
 export const assets = {
   hot_sticker,
   pour_decisions_icon,
@@ -29,4 +31,6 @@ export const assets = {
   mouse_icon,
   bomb_icon,
   hands_icon,
+  hand_spinning_vid,
+  hand_static,
 };

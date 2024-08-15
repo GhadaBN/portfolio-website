@@ -51,8 +51,8 @@
 #line-1 .hot_sticker {
   height: 5rem;
   margin: 0 2px 0 5px;
-  animation: float 4s ease-in-out infinite;
-  transform-style: preserve-3d;
+  /* animation: float 4s ease-in-out infinite;
+  transform-style: preserve-3d; */
 }
 .spiral-icon {
   height: 2.5rem;
@@ -61,14 +61,14 @@
   height: 4.5rem;
   position: relative;
   top: -0.2rem;
-  animation: float 4s ease-in-out infinite;
-  transform-style: preserve-3d;
+  /* animation: float 4s ease-in-out infinite;
+  transform-style: preserve-3d; */
 }
 
 .icon {
   height: 3.5rem;
-  animation: float 4s ease-in-out infinite;
-  transform-style: preserve-3d;
+  /* animation: float 4s ease-in-out infinite;
+  transform-style: preserve-3d; */
 }
 
 .thumbnail {

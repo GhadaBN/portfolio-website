@@ -14,7 +14,7 @@
       "MongoDB: Utilized as the NoSQL database to store user, restaurant, and order data.",
       "Payment Integration with Stripe API: Facilitates secure and efficient payment processing for transactions on the platform."
     ],
-    "photoFull": ["/tomato_social_screen.png"],
+    "photoCover": ["/tomato_social_screen.png"],
     "demo": ["https://tomato-social-frontend.onrender.com/"]
   },
   {
@@ -28,7 +28,7 @@
       "React.js: Provides a dynamic and responsive user interface, allowing for smooth interactions and updates.",
       "In-Browser Storage: User-generated recipes and application data are stored temporarily in the browser. Data will be lost upon refreshing the page."
     ],
-    "photoFull": ["/pour_decisions_screen.png"],
+    "photoCover": ["/pour_decisions_screen.png"],
     "demo": ["https://pour-decisions.netlify.app/"]
   },
   {
@@ -43,7 +43,7 @@
       "CSS3: Styles the game, enhancing visual appeal and responsiveness.",
       "JavaScript: Powers the game's logic and interactivity through DOM manipulation."
     ],
-    "photoFull": [],
+    "photoCover": [],
     "photo80": ["/fluffy_dog_1.png"],
     "videos": [],
     "demo": ["https://fluffy-dog-game.netlify.app/"]
@@ -60,7 +60,7 @@
       "JSON Server: Serves as a lightweight backend, managing and updating questions and user data, which enables the application to handle CRUD operations seamlessly.",
       "Axios: Used for making HTTP requests to the JSON server, enabling efficient data retrieval and updates."
     ],
-    "photoFull": ["/dev_roast_screen.png"],
+    "photoCover": ["/dev_roast_screen.png"],
     "videos": [],
     "demo": ["https://dev-roast.netlify.app/"]
   },
@@ -81,7 +81,7 @@
     "agency": "Agency: Mediamonks",
     "client": "Client: Gorillas Delivery",
     "awards": "Awards: ACD Junior Silver",
-    "photoFull": [],
+    "photoCover": [],
     "vimeoVideos": ["https://vimeo.com/737487952"],
     "vimeoVideosPortrait": ["https://vimeo.com/742957831"]
   },
@@ -92,7 +92,7 @@
     "description": [
       "At the top of the German football league, the Bundesliga is Germany's primary football competition. For its season finale, we were in charge of making a design toolkit, to be used across Bundesliga digital media and Tv channels."
     ],
-    "photoFull": [],
+    "photoCover": [],
     "videos": []
   },
   {
@@ -105,8 +105,11 @@
     ],
     "agency": "Design Agency: Attitude Studio",
     "client": "Client: Adidas Football",
-    "photoFull": [],
-    "videos": ["/adidas_video.mp4"]
+    "photoCover": ["/adidas_uniforia_pack.jpg"],
+    "photoSection1": ["/adidas_2.png", "/adidas_4.png"],
+    "photoSection2": ["/adidas_1.png", "/adidas_3.png"],
+    "photo80": [],
+    "videos70W": ["/adidas_video.mp4"]
   },
   {
     "id": "gorillas-eoy",
@@ -154,7 +157,7 @@
       "The idea of finding \"the one\" is a socially romanticized view of relationships. Tinder aims to shift this perspective by suggesting that there isn't just one perfect match for each of us; instead, anyone could be \"the one\" — whether they are the funny one, the attractive one, or the intelligent one.",
       "To illustrate this, we imagined a Waldo puzzle made entirely of Waldos, symbolizing how effortlessly you can find not just one, but many perfect matches."
     ],
-    "photoFull": ["/tinder_1.jpg"],
+    "photoCover": ["/tinder_1.jpg"],
     "photo80": ["/tinder_2.jpg"],
     "videos": ["/tinder_animation.mp4"]
   }

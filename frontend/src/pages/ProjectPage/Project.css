@@ -5,8 +5,6 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  /* background-color: black;
-  color: white; */
 }
 
 .project-name-container {
@@ -107,11 +105,18 @@
 }
 
 .video-wrapper {
-  margin: 4rem auto;
+  margin: 2rem auto;
   position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
   max-width: 80%;
+}
+.video-wrapper-70w {
+  margin: 2rem auto;
+  position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  max-width: 70%;
 }
 
 .project-video {
@@ -129,23 +134,22 @@
   object-fit: cover;
 }
 
-.photo-wrapper {
+.cover-img-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem auto;
+  margin: 1rem auto;
   position: relative;
   overflow: hidden;
-  max-width: 95%;
+  max-width: 100%;
   height: auto;
-  border: solid 2px black;
-  border-radius: 10px;
 }
+
 .photo-wrapper-80 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem auto;
+  margin: 1rem auto;
   position: relative;
   overflow: hidden;
   height: auto;
@@ -155,4 +159,22 @@
   object-fit: cover;
   width: 100%;
   height: auto;
+}
+.photo-section-wrapper {
+  display: flex;
+
+  justify-content: center;
+  align-items: center; /* Center images horizontally */
+  margin: 1rem auto;
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  max-width: 100%;
+}
+
+.img-project-half {
+  object-fit: cover;
+  width: 50%; /* Adjust width as needed */
+  height: auto;
+  margin-bottom: 1rem; /* Space between images */
 }

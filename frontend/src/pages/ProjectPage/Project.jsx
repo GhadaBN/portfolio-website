@@ -115,14 +115,20 @@ const Project = () => {
               </div>
             </div>
           </div>
+          <div className="cover-img-container">
+            <img src={project.photoCover} alt="" className="img-project" />
+          </div>
           <div className="media-section">
-            {project.photoFull?.map((photo, index) => (
-              <div key={index} className="photo-wrapper">
-                <img src={photo} alt="" className="img-project" />
-              </div>
-            ))}
             {project.videos?.map((video, index) => (
               <div key={index} className="video-wrapper">
+                <video autoPlay muted loop className="project-video">
+                  <source src={video} type="video/webm" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            ))}
+            {project.videos70W?.map((video, index) => (
+              <div key={index} className="video-wrapper-70w">
                 <video autoPlay muted loop className="project-video">
                   <source src={video} type="video/webm" />
                   Your browser does not support the video tag.
@@ -192,6 +198,22 @@ const Project = () => {
                 />
               </div>
             ))}
+            <div className="photo-section-wrapper">
+              {project.photoSection1?.map((photo, index) => (
+                <img
+                  key={index}
+                  src={photo}
+                  alt=""
+                  className="img-project-half"
+                />
+              ))}
+            </div>
+            {project.photoSection2?.map((photo, index) => (
+              <div key={index} className="photo-section-wrapper">
+                <img src={photo} alt="" className="img-project" />
+              </div>
+            ))}
+
             {project.photo80?.map((photo, index) => (
               <div key={index} className="photo-wrapper-80">
                 <img src={photo} alt="" className="img-project" />

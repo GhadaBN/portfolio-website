@@ -11,7 +11,7 @@
 
 .hero-frame {
   position: relative;
-  width: 100%;
+  min-width: 100%;
   padding: 1rem;
   height: auto;
   z-index: 100;
@@ -20,12 +20,13 @@
 
 .title-project {
   font-family: Sohne Breit;
-  font-size: 4.5rem;
+  font-size: 5.3vw;
   line-height: 1;
   vertical-align: baseline;
 }
 
 .line {
+  min-width: 100%;
   text-align: center;
   flex-wrap: nowrap;
   display: flex;
@@ -50,28 +51,28 @@
 .line li img {
   display: inline-block;
   width: auto;
-  margin: 0 5px 0 5px;
+  margin: 0 8px 0 8px;
 }
 
 #line-1 .hot_sticker {
-  height: 5rem;
+  height: 7vw;
   margin: 0 2px 0 5px;
 }
 .spiral-icon {
   height: 2.5rem;
 }
 .love-message {
-  height: 4.5rem;
+  height: 5.5vw;
   position: relative;
   top: -0.2rem;
 }
 
 .icon {
-  height: 3.5rem;
+  height: 4.5vw;
 }
 
 .thumbnail {
-  height: 4rem;
+  height: 5.5vw;
 }
 #line-1 {
   display: flex;

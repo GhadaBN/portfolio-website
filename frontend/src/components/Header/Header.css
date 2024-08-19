@@ -83,3 +83,18 @@
   display: inline-flex;
   align-items: baseline;
 }
+
+/* .line li a .icon,
+.line li a .hot_sticker,
+.line li a .thumbnail, */
+.line li a {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* .line li a:hover .icon,
+.line li a:hover .hot_sticker,
+.line li a:hover .thumbnail, */
+.line li a:hover {
+  animation-play-state: paused;
+  animation: float 3s ease-in-out infinite, shadow-float 3s ease-in-out infinite;
+}

@@ -61,8 +61,8 @@
       "JSON Server: Serves as a lightweight backend, managing and updating questions and user data, which enables the application to handle CRUD operations seamlessly.",
       "Axios: Used for making HTTP requests to the JSON server, enabling efficient data retrieval and updates."
     ],
-    "photoCover": ["/dev_roast_screen.png"],
-    "videos": [],
+    "photoCover": [],
+    "videoCover": ["/dev_roast_video.mov"],
     "demo": ["https://dev-roast.netlify.app/"]
   },
   {

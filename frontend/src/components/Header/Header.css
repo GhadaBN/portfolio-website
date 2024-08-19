@@ -55,24 +55,24 @@
 }
 
 #line-1 .hot_sticker {
-  height: 7vw;
+  height: 5.6vw;
   margin: 0 2px 0 5px;
 }
 .spiral-icon {
-  height: 2.5rem;
+  height: 3.2vw;
 }
 .love-message {
-  height: 5.5vw;
+  height: 5.1vw;
   position: relative;
   top: -0.2rem;
 }
 
 .icon {
-  height: 4.5vw;
+  height: 4.1vw;
 }
 
 .thumbnail {
-  height: 5.5vw;
+  height: 5.2vw;
 }
 #line-1 {
   display: flex;

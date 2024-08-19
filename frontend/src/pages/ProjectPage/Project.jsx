@@ -118,6 +118,14 @@ const Project = () => {
           <div className="cover-img-container">
             <img src={project.photoCover} alt="" className="img-project" />
           </div>
+          {project.videoCover?.map((video, index) => (
+            <div key={index} className="cover-video-container">
+              <video autoPlay muted loop className="project-video">
+                <source src={video} type="video/webm" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          ))}
           <div className="media-section">
             {project.videos?.map((video, index) => (
               <div key={index} className="video-wrapper">

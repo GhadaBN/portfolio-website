@@ -14,7 +14,8 @@
       "MongoDB: Utilized as the NoSQL database to store user, restaurant, and order data.",
       "Payment Integration with Stripe API: Facilitates secure and efficient payment processing for transactions on the platform."
     ],
-    "photoCover": ["/tomato_social_screen.png"],
+    "videoCover": ["/tomato_social_video.mov"],
+    "photoCover": [],
     "demo": ["https://tomato-social-frontend.onrender.com/"]
   },
   {
@@ -92,7 +93,11 @@
     "description": [
       "At the top of the German football league, the Bundesliga is Germany's primary football competition. For its season finale, we were in charge of making a design toolkit, to be used across Bundesliga digital media and Tv channels."
     ],
-    "photoCover": [],
+    "team": ["ECD: Johannes Hicks", "AD: Ghada Bennasr", "CW: Kevin Chow"],
+    "agency": "Agency: Mediamonks",
+    "client": "Client: Gorillas Delivery",
+    "photoCover": ["/bundesliga_01.png"],
+    "photoSection2": ["/bundesliga_02.png"],
     "videos": []
   },
   {
@@ -140,7 +145,7 @@
       "Our campaign for the 2 Series Active Tourer is a testament to adaptability, mirroring the versatility of life itself. With a plug-and-play production approach, we created a multitude of adaptations, each tailored to different markets, target audiences, and customer journey stages.",
       "Despite it being a product launch campaign, we didn’t focus only on technical features but on what they can do for you. With many small stories, all coming from A TOUR CALLED LIFE."
     ],
-    "photoFull": [],
+    "photoSection1": [],
     "videos": []
   },
   {
@@ -149,7 +154,7 @@
     "type": ["Student Work", "Graphic Design", "Art Direction"],
     "role": "Role: Concept, Artwork",
     "team": [
-      "AD: Leonardo Bordovsky ",
+      "AD: Leonardo Bordovsky",
       "AD: Ghada Bennasr",
       "CW: Stephan Körner"
     ],

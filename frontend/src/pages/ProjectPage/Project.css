@@ -11,13 +11,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2.5rem auto;
+  margin: 4rem auto;
   width: 100%;
 }
 
 .project-name {
   text-transform: uppercase;
-  /* white-space: nowrap; */
   overflow: hidden;
   display: inline-block;
   text-align: center;

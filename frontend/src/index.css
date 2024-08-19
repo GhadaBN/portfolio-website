@@ -79,23 +79,30 @@ html {
 }
 
 /* Extra large screens, TV (1201px and more) */
-@media (min-width: 1201px) {
+
+@media (min-width: 1401px) {
   html {
     font-size: 110%;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+  html {
+    font-size: 95%;
   }
 }
 
 /* Desktops, large screens (1025px - 1200px) */
 @media (min-width: 1025px) and (max-width: 1200px) {
   html {
-    font-size: 100%;
+    font-size: 80%;
   }
 }
 
 /* Small screens, laptops (769px - 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
   html {
-    font-size: 90%;
+    font-size: 65%;
   }
 }
 
@@ -112,6 +119,6 @@ html {
     font-size: 70%;
   }
   body {
-    padding-top: 4rem;
+    padding-top: 1rem;
   }
 }

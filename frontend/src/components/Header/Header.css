@@ -21,13 +21,18 @@
 
 .title-project {
   font-family: Sohne Breit;
-  font-size: 4.8rem;
+  font-size: 4.3rem;
   line-height: 1;
   vertical-align: baseline;
 }
 
 .line {
   text-align: center;
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
 }
 
 .line li a {

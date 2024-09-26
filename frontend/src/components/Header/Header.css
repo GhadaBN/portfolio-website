@@ -1,7 +1,7 @@
 .header {
   width: 100%;
-  height: 85vh;
-  margin: 1rem auto;
+  height: auto;
+  margin: 0;
   position: relative;
   display: flex;
   align-items: center;
@@ -12,15 +12,13 @@
 .hero-frame {
   position: relative;
   min-width: 100%;
-  padding: 1rem;
+  padding: 0.6rem;
   height: auto;
-  z-index: 100;
-  perspective: 1000px;
 }
 
 .title-project {
   font-family: Sohne Breit;
-  font-size: 5.3vw;
+  font-size: 5.7vw;
   line-height: 1;
   vertical-align: baseline;
 }
@@ -30,7 +28,7 @@
   text-align: center;
   flex-wrap: nowrap;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   min-width: 100%;
 }
@@ -38,7 +36,7 @@
 .line li a {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .line li {
@@ -55,8 +53,8 @@
 }
 
 #line-1 .hot_sticker {
-  height: 5.6vw;
-  margin: 0 2px 0 5px;
+  height: 5vw;
+  margin: 0 2.5px 0 5px;
 }
 .spiral-icon {
   height: 3.2vw;
@@ -77,25 +75,25 @@
 #line-1 {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 #line-1 li a {
   display: inline-flex;
   align-items: baseline;
 }
-
-/* .line li a .icon,
+/* 
+.line li a .icon,
 .line li a .hot_sticker,
-.line li a .thumbnail, */
+.line li a .thumbnail,
 .line li a {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* .line li a:hover .icon,
+.line li a:hover .icon,
 .line li a:hover .hot_sticker,
-.line li a:hover .thumbnail, */
+.line li a:hover .thumbnail,
 .line li a:hover {
   animation-play-state: paused;
   animation: float 3s ease-in-out infinite, shadow-float 3s ease-in-out infinite;
-}
+} */

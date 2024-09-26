@@ -10,16 +10,16 @@ const Navbar = () => {
         <Link to="/" className="nav-link">
           <video
             className="home-logo"
-            src={assets.hand_spinning_vid}
             poster={assets.hand_static}
             autoPlay
             muted
             loop
             playsInline
-            webkit-playsinline=""
-            crossOrigin="anonymous"
-            alt="home logo"
-          />
+            loading="lazy"
+          >
+            <source src={assets.hand_spin_logo_webm} type="video/webm" />
+            <img src={assets.hand_spin_logo_gif} alt="logo fallback" />
+          </video>
         </Link>
       </div>
       {/* <div className="link-container">

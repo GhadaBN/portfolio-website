@@ -1,11 +1,26 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
 import About from "./pages/About/About";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Project from "./pages/ProjectPage/Project";
+
 const App = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    const currentPath = location.pathname;
+    document.body.className = "";
+
+    if (currentPath === "/") {
+      document.body.classList.add("home-page");
+    } else {
+      document.body.classList.add("project-page");
+    }
+  }, [location]);
+
   return (
     <div className="app">
       <Navbar />

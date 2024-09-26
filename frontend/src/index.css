@@ -37,7 +37,14 @@ body {
   min-height: 90vh;
   min-width: 100vw;
   overflow-x: hidden;
+  background-color: #ffffff;
+}
+body.home-page {
   background-color: #fffff4;
+}
+
+body.project-page {
+  background-color: #f7f7f0;
 }
 
 a {

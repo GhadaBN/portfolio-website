@@ -12,6 +12,12 @@
   src: url("../src/assets/SohneBreit-Dreiviertelfett.otf");
 }
 @font-face {
+  font-family: "Sohne Breit halbfett";
+  font-style: sans-serif;
+  font-weight: bold;
+  src: url("../src/assets/TestSohneBreit-Halbfett-BF663d89cacf645.otf");
+}
+@font-face {
   font-family: "Sohne Breit Leicht";
   font-style: sans-serif;
   font-weight: 200;

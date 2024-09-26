@@ -16,6 +16,7 @@ import hands_icon from "./hands_icon.png";
 import hand_spin_logo_webm from "./hand_spin_logo.webm";
 import hand_spin_logo_gif from "./hand_spin_logo.gif";
 import hand_static from "./hand_static.png";
+import a_icon from "./a_letter_icon.png";
 export const assets = {
   hot_sticker,
   pour_decisions_icon,
@@ -35,4 +36,5 @@ export const assets = {
   hand_spin_logo_webm,
   hand_spin_logo_gif,
   hand_static,
+  a_icon,
 };

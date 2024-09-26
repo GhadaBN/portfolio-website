@@ -9,7 +9,7 @@ const DesignDirection = () => {
           <ul className="">
             <li>
               <Link to="/project/gorillas-delivery">
-                <img src={assets.arrow_icon} className="icon-start" />
+                {/* <img src={assets.arrow_icon} className="icon-start" /> */}
                 <span className="title-project">GORILLAS DELIVERY</span>
                 <img src={assets.gorillas_icon} className="thumbnail" />
               </Link>

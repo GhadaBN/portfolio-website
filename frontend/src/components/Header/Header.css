@@ -13,7 +13,7 @@
 
 .title-project {
   font-family: Sohne Breit Dreiviertelfett;
-  font-size: 5.7vw;
+  font-size: 6.7vw;
   line-height: 1;
   color: black;
 }
@@ -44,7 +44,7 @@
 }
 
 #line-1 .hot_sticker {
-  height: 5.3vw;
+  height: 5.5vw;
   margin: 0 2.5px 0 5px;
 }
 .spiral-icon {
@@ -65,6 +65,10 @@
 .icon-start {
   height: 4.2vw;
   margin-right: 8px;
+}
+.icon-letter {
+  height: 5.1vw;
+  margin-left: 20px;
 }
 .thumbnail {
   height: 5.3vw;

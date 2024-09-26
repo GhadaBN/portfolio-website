@@ -56,7 +56,7 @@ const Navbar = () => {
               }
               onClick={() => setActiveTab("Design")}
             >
-              DESIGN/ART DIRECTION
+              DESIGN/DIRECTION
             </Link>
           </li>
           <li className="nav-link-container">

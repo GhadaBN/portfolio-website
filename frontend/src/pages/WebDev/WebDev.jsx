@@ -9,6 +9,16 @@ const WebDev = () => {
           <ul className="">
             <li>
               <Link to="/project/tomato-social-club">
+                <span className="title-project">MOBILE WALLET APP</span>
+                {/* <img src={assets.hot_sticker} className="hot_sticker" /> */}
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div id="line-1" className="line">
+          <ul className="">
+            <li>
+              <Link to="/project/tomato-social-club">
                 <span className="title-project">TOMATO SOCIAL</span>
                 <img src={assets.hot_sticker} className="hot_sticker" />
                 <span className="title-project">CLUB</span>
@@ -35,6 +45,10 @@ const WebDev = () => {
                 <img src={assets.fluffy_dog_icon} className="thumbnail" />
               </Link>
             </li>
+          </ul>
+        </div>
+        <div id="line-3" className="line">
+          <ul className="">
             <li>
               <Link to="/project/dev-roast">
                 <span className="title-project">DEV ROAST</span>

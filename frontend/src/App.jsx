@@ -34,7 +34,7 @@ const App = () => {
         <Route path="/designdirection" element={<DesignDirection />} />
         <Route path="/project/:projectId" element={<Project />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

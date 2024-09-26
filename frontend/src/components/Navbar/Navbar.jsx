@@ -22,13 +22,33 @@ const Navbar = () => {
           </video>
         </Link>
       </div>
-      {/* <div className="link-container">
-        <li className="about">
-          <Link to="/about" className="nav-link">
-            About
-          </Link>
-        </li>
-      </div> */}
+      <div className="links-container">
+        <ul
+          style={{
+            display: "flex",
+            flexGrow: 1,
+            padding: 0,
+            margin: 0,
+            listStyle: "none",
+          }}
+        >
+          <li className="nav-link-container">
+            <Link to="" className="nav-link">
+              WEB DEVELOPMENT
+            </Link>
+          </li>
+          <li className="nav-link-container">
+            <Link to="" className="nav-link">
+              DESIGN/DIRECTION
+            </Link>
+          </li>
+          <li className="nav-link-container">
+            <Link to="/about" className="nav-link">
+              ABOUT
+            </Link>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

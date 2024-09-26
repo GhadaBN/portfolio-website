@@ -33,18 +33,19 @@
 }
 
 body {
-  padding-top: 1.5rem;
   min-height: 90vh;
   min-width: 100vw;
   overflow-x: hidden;
   background-color: #ffffff;
 }
 body.home-page {
-  background-color: #fffff4;
+  /* background-color: #fffff4; */
+  /* background-color: #f3f3f4; */
+  background-color: #fbfbf6;
 }
 
 body.project-page {
-  background-color: #f7f7f0;
+  background-color: #fbfbf6;
 }
 
 a {
@@ -53,9 +54,10 @@ a {
 }
 
 .app {
-  width: 98%;
+  padding-top: 3.2rem;
+  width: 100%;
   margin: auto;
-  padding-top: 0;
+
   overflow: auto;
 }
 
@@ -82,6 +84,7 @@ a {
 }
 html {
   font-size: 100%;
+  scroll-padding-top: calc(4rem + 2.5rem);
 }
 
 @keyframes float {

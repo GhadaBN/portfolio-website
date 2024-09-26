@@ -57,16 +57,10 @@ const Header = () => {
           </ul>
         </div>
         <div id="line-5" className="line">
-          <ul className="">
-            <li>
-              <Link to="/project/bundesliga">
-                <span className="title-project">BUNDESLIGA</span>
-                <img src={assets.football_icon} className="icon" />
-              </Link>
-            </li>
+          <ul>
             <li>
               <Link to="/project/adidas">
-                <span className="title-project">ADIDAS SS20</span>
+                <span className="title-project">ADIDAS UNIFORIA SS20</span>
               </Link>
             </li>
           </ul>
@@ -81,6 +75,17 @@ const Header = () => {
             </li>
           </ul>
         </div>
+        {/* <div id="line-5" className="line">
+          <ul className="">
+            <li>
+              <Link to="/project/bundesliga">
+                <span className="title-project">BUNDESLIGA</span>
+                <img src={assets.football_icon} className="icon" />
+              </Link>
+            </li>
+          </ul>
+        </div> */}
+
         <div id="line-7" className="line">
           <ul className="">
             <li>

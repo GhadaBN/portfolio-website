@@ -21,6 +21,7 @@ const Navbar = () => {
             loop
             playsInline
             loading="lazy"
+            style={{ backgroundColor: "transparent" }}
           >
             <source src={assets.hand_spin_logo_webm} type="video/webm" />
             <img src={assets.hand_spin_logo_gif} alt="logo fallback" />

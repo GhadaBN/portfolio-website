@@ -22,7 +22,7 @@ const Header = () => {
           <ul className="">
             <li>
               <Link to="/project/pour-decisions">
-                <img src={assets.heart_wings_icon} className="icon" />
+                <img src={assets.heart_wings_icon} className="icon-start" />
                 <span className="title-project">POUR DECISIONS</span>
                 <img src={assets.pour_decisions_icon} className="thumbnail" />
               </Link>
@@ -49,7 +49,7 @@ const Header = () => {
           <ul className="">
             <li>
               <Link to="/project/gorillas-delivery">
-                <img src={assets.arrow_icon} className="icon" />
+                <img src={assets.arrow_icon} className="icon-start" />
                 <span className="title-project">GORILLAS DELIVERY</span>
                 <img src={assets.gorillas_icon} className="thumbnail" />
               </Link>

@@ -1,9 +1,11 @@
 import { Route, Routes, useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
 import About from "./pages/About/About";
+import WebDev from "./pages/WebDev/WebDev";
+import DesignDirection from "./pages/DesignDirection/DesignDirection";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Project from "./pages/ProjectPage/Project";
 
@@ -28,6 +30,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/webdev" element={<WebDev />} />
+        <Route path="/designdirection" element={<DesignDirection />} />
         <Route path="/project/:projectId" element={<Project />} />
       </Routes>
       <Footer />

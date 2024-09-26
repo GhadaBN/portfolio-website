@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { assets } from "../../assets/assets";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const [activeTab, seAtctiveTab] = useState("Home");
   return (
     <div className="navbar">
       <div className="logo-container">
-        <Link to="/" className="nav-link">
+        <Link
+          to="/"
+          className={activeTab === "Home" ? "nav-link active" : "nav-link"}
+          onClick={() => setActiveTab("Home")}
+        >
           <video
             className="home-logo"
             poster={assets.hand_static}
@@ -33,12 +38,24 @@ const Navbar = () => {
           }}
         >
           <li className="nav-link-container">
-            <Link to="" className="nav-link">
+            <Link
+              to="/webdev"
+              className={
+                activeTab === "WebDev" ? "nav-link active" : "nav-link"
+              }
+              onClick={() => setActiveTab("WebDeb")}
+            >
               WEB DEVELOPMENT
             </Link>
           </li>
           <li className="nav-link-container">
-            <Link to="" className="nav-link">
+            <Link
+              to="/designdirection"
+              className={
+                activeTab === "Design" ? "nav-link active" : "nav-link"
+              }
+              onClick={() => setActiveTab("Design")}
+            >
               DESIGN/ART DIRECTION
             </Link>
           </li>

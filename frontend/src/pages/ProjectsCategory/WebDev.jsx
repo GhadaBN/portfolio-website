@@ -1,9 +1,10 @@
 import React from "react";
 import { assets } from "../../assets/assets";
 import { Link } from "react-router-dom";
+import "./ProjectsCategory.css";
 const WebDev = () => {
   return (
-    <div className="header">
+    <div className="header-category">
       <div className="hero-frame">
         <div id="line-1" className="line">
           <ul className="">

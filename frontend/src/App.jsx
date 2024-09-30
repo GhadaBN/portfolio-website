@@ -4,8 +4,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
 import About from "./pages/About/About";
-import WebDev from "./pages/WebDev/WebDev";
-import DesignDirection from "./pages/DesignDirection/DesignDirection";
+import WebDev from "./pages/ProjectsCategory/WebDev";
+import DesignDirection from "./pages/ProjectsCategory/DesignDirection";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Project from "./pages/ProjectPage/Project";
 

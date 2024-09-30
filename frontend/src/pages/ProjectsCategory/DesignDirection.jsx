@@ -1,6 +1,7 @@
 import React from "react";
 import { assets } from "../../assets/assets";
 import { Link } from "react-router-dom";
+import "./ProjectsCategory.css";
 const DesignDirection = () => {
   return (
     <div className="header">
@@ -9,7 +10,6 @@ const DesignDirection = () => {
           <ul className="">
             <li>
               <Link to="/project/gorillas-delivery">
-                {/* <img src={assets.arrow_icon} className="icon-start" /> */}
                 <span className="title-project">GORILLAS DELIVERY</span>
                 <img src={assets.gorillas_icon} className="thumbnail" />
               </Link>

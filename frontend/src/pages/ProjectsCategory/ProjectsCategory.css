@@ -1,0 +1,86 @@
+.header-category {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-frame {
+  width: 100%;
+  padding: 0.6rem;
+}
+
+.title-project {
+  font-family: Sohne Breit Dreiviertelfett;
+  font-size: 6.7vw;
+  line-height: 1;
+  color: black;
+}
+
+.line {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.line li {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.line li a {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.line li img {
+  display: inline-block;
+  width: auto;
+}
+
+#line-1 .hot_sticker {
+  height: 5.5vw;
+  margin: 0 2.5px 0 5px;
+}
+.spiral-icon {
+  height: 3.2vw;
+  margin-right: 8px;
+}
+.love-message {
+  height: 5.1vw;
+  position: relative;
+  top: -0.2rem;
+}
+
+.icon {
+  height: 4.2vw;
+  margin: 0 8px 0 8px;
+}
+
+.icon-start {
+  height: 4.2vw;
+  margin-right: 8px;
+}
+.icon-letter {
+  height: 5.1vw;
+  margin-left: 20px;
+}
+.thumbnail {
+  height: 5.3vw;
+  margin: 0 8px 0 8px;
+}
+#line-1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#line-1 li a {
+  display: inline-flex;
+  align-items: baseline;
+}

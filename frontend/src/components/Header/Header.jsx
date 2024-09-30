@@ -34,6 +34,15 @@ const Header = () => {
             </li>
           </ul>
         </div>
+        <div className="line-header">
+          <ul>
+            <li>
+              <Link to="/about">
+                <h1 className="title-category">CONTACT</h1>
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

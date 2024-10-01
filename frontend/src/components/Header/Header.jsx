@@ -9,28 +9,43 @@ const Header = () => {
       <div className="hero-frame">
         <div className="line-header">
           <ul>
-            <li>
+            <li className="hover-item">
               <Link to="/webdev">
                 <h1 className="title-category">WEB DEVELOPMENT</h1>
               </Link>
+              <div className="hover-content">
+                <p>Web Development Projects</p>
+              </div>
             </li>
           </ul>
         </div>
         <div className="line-header">
           <ul>
-            <li>
+            <li className="hover-item">
               <Link to="/designdirection">
                 <h1 className="title-category">DESIGN / ART DIRECTION</h1>
               </Link>
+              <div className="hover-content">
+                <p>Design and Art Direction Projects</p>
+                {/* <img
+                  src="webdev-image.jpg"
+                  alt="Design Direction"
+                  className="hover-image"
+                /> */}
+              </div>
             </li>
           </ul>
         </div>
         <div className="line-header">
           <ul>
-            <li>
+            <li className="hover-item">
               <Link to="/about">
-                <h1 className="title-category">ABOUT</h1>
+                <h1 className="title-category">ABOUT </h1>
               </Link>
+              <div className="hover-content">
+                <p>Hello, I am Ghada</p>
+                {/* <img src="about.jpg" alt="About" className="hover-image" /> */}
+              </div>
             </li>
           </ul>
         </div>

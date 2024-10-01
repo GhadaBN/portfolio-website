@@ -5,7 +5,7 @@ import "./ProjectsCategory.css";
 const WebDev = () => {
   return (
     <div className="header-category">
-      <div className="hero-frame">
+      <div className="hero-frame-links">
         <div id="line-1" className="line">
           <ul className="">
             <li>

@@ -8,30 +8,59 @@
 
 .hero-frame {
   width: 100%;
-  padding: 0.6rem;
-}
-
-.title-category {
-  font-family: Sohne Breit Dreiviertelfett;
-  font-size: 7vw;
-  line-height: 1;
-  color: black;
 }
 
 .line-header {
+  padding-left: 0.6rem;
   width: 100%;
   border-bottom: solid black 1.3px;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  transition: background 0.4s ease-in-out;
 }
 
 .line-header li {
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
-  width: 60%;
+  max-width: 80vw;
   padding: 0;
   align-items: center;
   justify-content: center;
   vertical-align: middle;
+}
+
+.hover-item {
+  padding: 0.6rem;
+  position: relative;
+  overflow: hidden;
+  transition: height 0.4s ease-in-out;
+}
+
+.hover-content {
+  padding: 0.6rem;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.4s ease-in-out, max-height 0.4s ease-in-out;
+}
+.hover-image {
+  width: 100px;
+  margin-top: 10px;
+}
+
+.line-header:hover {
+  background: linear-gradient(
+    0deg,
+    rgb(125, 180, 244) 25%,
+    rgb(147, 180, 246) 38%,
+    rgb(166, 180, 247) 47%,
+    rgba(104, 184, 171, 255) 83%,
+    rgba(33, 186, 76, 255) 99%
+  );
+}
+
+.line-header:hover .hover-content {
+  opacity: 1;
+  max-height: 200px;
 }

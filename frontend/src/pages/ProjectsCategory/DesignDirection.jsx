@@ -5,7 +5,7 @@ import "./ProjectsCategory.css";
 const DesignDirection = () => {
   return (
     <div className="header">
-      <div className="hero-frame">
+      <div className="hero-frame-links">
         <div id="line-4" className="line">
           <ul className="">
             <li>

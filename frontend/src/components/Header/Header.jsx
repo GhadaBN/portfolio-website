@@ -9,7 +9,7 @@ const Header = () => {
       <div className="hero-frame">
         <div className="line-header">
           <ul>
-            <li className="hover-item">
+            <li className="hover-title">
               <Link to="/webdev">
                 <h1 className="title-category">WEB DEVELOPMENT</h1>
               </Link>
@@ -21,7 +21,7 @@ const Header = () => {
         </div>
         <div className="line-header">
           <ul>
-            <li className="hover-item">
+            <li className="hover-title">
               <Link to="/designdirection">
                 <h1 className="title-category">DESIGN / ART DIRECTION</h1>
               </Link>
@@ -38,23 +38,14 @@ const Header = () => {
         </div>
         <div className="line-header">
           <ul>
-            <li className="hover-item">
+            <li className="hover-title">
               <Link to="/about">
-                <h1 className="title-category">ABOUT </h1>
+                <h1 className="title-category">ABOUT</h1>
               </Link>
               <div className="hover-content">
                 <p>Hello, I am Ghada</p>
                 {/* <img src="about.jpg" alt="About" className="hover-image" /> */}
               </div>
-            </li>
-          </ul>
-        </div>
-        <div className="line-header">
-          <ul>
-            <li>
-              <Link to="/about">
-                <h1 className="title-category">CONTACT</h1>
-              </Link>
             </li>
           </ul>
         </div>

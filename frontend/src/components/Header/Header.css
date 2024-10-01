@@ -50,14 +50,7 @@
 }
 
 .line-header:hover {
-  background: linear-gradient(
-    0deg,
-    rgb(125, 180, 244) 25%,
-    rgb(147, 180, 246) 38%,
-    rgb(166, 180, 247) 47%,
-    rgba(104, 184, 171, 255) 83%,
-    rgba(33, 186, 76, 255) 99%
-  );
+  background: linear-gradient(0deg, #9fb5f6 3%, #fbfbf6 99%);
 }
 
 .line-header:hover .hover-content {

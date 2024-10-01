@@ -42,6 +42,7 @@ body {
   min-width: 100vw;
   overflow-x: hidden;
   background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
 }
 body.home-page {
   /* background-color: #fffff4; */
@@ -78,7 +79,7 @@ p {
 
 h1 {
   font-family: Sohne Breit Dreiviertelfett;
-  font-size: 7vw;
+  font-size: 6.7vw;
   line-height: 1;
   color: black;
 }

@@ -24,12 +24,6 @@
   src: url("../src/assets/SohneBreit-Leicht.otf");
 }
 
-@font-face {
-  font-family: "DM Sans";
-  font-style: sans-serif;
-  src: url("../src/assets/DMSans-VariableFont_opsz\,wght.ttf");
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -45,8 +39,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 body.home-page {
-  /* background-color: #fffff4; */
-  /* background-color: #f3f3f4; */
   background-color: #fbfbf6;
 }
 
@@ -60,10 +52,9 @@ a {
 }
 
 .app {
-  padding-top: 3.2rem;
+  padding-top: 2rem;
   width: 100%;
   margin: auto;
-
   overflow: auto;
 }
 

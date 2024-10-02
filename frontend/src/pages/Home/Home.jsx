@@ -1,11 +1,12 @@
 import React from "react";
 import "./Home.css";
 import Header from "../../components/Header/Header";
-
-const Home = ({ activeTab, setActiveTab }) => {
+import IntroAbout from "../../components/Header/IntroAbout/IntroAbout";
+const Home = () => {
   return (
     <div className="home">
-      <Header />
+      <IntroAbout />
+      {/* <Header /> */}
     </div>
   );
 };

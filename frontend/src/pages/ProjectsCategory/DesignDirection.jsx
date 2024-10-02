@@ -6,7 +6,7 @@ const DesignDirection = () => {
   return (
     <div className="header">
       <div className="hero-frame-links">
-        <div id="line-4" className="line">
+        <div id="line-1" className="line">
           <ul className="">
             <li>
               <Link to="/project/gorillas-delivery">
@@ -16,7 +16,7 @@ const DesignDirection = () => {
             </li>
           </ul>
         </div>
-        <div id="line-5" className="line">
+        <div id="line-2" className="line">
           <ul>
             <li>
               <Link to="/project/adidas">
@@ -25,7 +25,7 @@ const DesignDirection = () => {
             </li>
           </ul>
         </div>
-        <div id="line-6" className="line">
+        <div id="line-3" className="line">
           <ul className="">
             <li>
               <Link to="/project/gorillas-eoy">
@@ -35,7 +35,7 @@ const DesignDirection = () => {
             </li>
           </ul>
         </div>
-        <div id="line-5" className="line">
+        <div id="line-4" className="line">
           <ul className="">
             <li>
               <Link to="/project/bundesliga">
@@ -46,7 +46,7 @@ const DesignDirection = () => {
           </ul>
         </div>
 
-        <div id="line-7" className="line">
+        <div id="line-5" className="line">
           <ul className="">
             <li>
               <Link to="/project/bmw">

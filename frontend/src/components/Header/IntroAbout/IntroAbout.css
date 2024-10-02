@@ -5,16 +5,23 @@
   color: black;
 }
 
-.icon-about {
-  height: 5rem;
+.icons-about {
+  height: 4.5rem;
   margin: 0 8px;
   display: inline-block;
-  vertical-align: baseline; 
+  vertical-align: baseline;
 }
+.icon-arrow {
+  height: 3.8rem;
+  margin: 0 8px;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
 
 .line-about {
   width: 100%;
   display: flex;
-  align-items: baseline; 
+  align-items: baseline;
   justify-content: flex-start;
 }

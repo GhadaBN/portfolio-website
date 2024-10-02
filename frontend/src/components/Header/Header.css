@@ -22,7 +22,6 @@
 }
 
 .line-header li {
-  margin-bottom: 0.5rem;
   margin-top: 0.5rem;
   max-width: 80vw;
   padding: 0;
@@ -34,15 +33,15 @@
 .hover-title {
   padding: 0.6rem;
   position: relative;
-  transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  transition: max-height 0.8s ease-in-out, opacity 0.4s ease-in-out;
 }
 
 .hover-content {
   padding: 0.6rem;
   opacity: 0;
-  height: 0; 
+  height: 0;
   overflow: hidden;
-  transition: height 0.4s ease-in-out, opacity 0.2s ease-in-out;
+  transition: height 0.8s ease-in-out, opacity 0.4s ease-in-out;
 }
 
 .title-category {
@@ -59,5 +58,5 @@
 
 .line-header:hover .hover-content {
   opacity: 1;
-  height: 20vh;
+  height: 22vh;
 }

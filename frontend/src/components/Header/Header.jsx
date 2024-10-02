@@ -27,11 +27,6 @@ const Header = () => {
               </Link>
               <div className="hover-content">
                 <p>Design and Art Direction Projects</p>
-                {/* <img
-                  src="webdev-image.jpg"
-                  alt="Design Direction"
-                  className="hover-image"
-                /> */}
               </div>
             </li>
           </ul>

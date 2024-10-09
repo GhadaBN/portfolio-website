@@ -1,3 +1,5 @@
+/* ------------- Project Header ------------- */
+
 .header-project-container {
   width: 100%;
 }
@@ -17,9 +19,11 @@
   overflow: hidden;
   display: inline-block;
   text-align: left;
-  font-size: 15vw;
+  font-size: 12vw;
   line-height: 0.85;
 }
+
+/* ------------- Tags Section ------------- */
 
 .tags-container {
   display: flex;
@@ -27,8 +31,7 @@
   padding: 0.5rem 1rem;
 }
 
-.type-tag,
-.demo-tag {
+.type-tag {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,23 +39,19 @@
   border-radius: 1.5rem;
   white-space: nowrap;
   text-align: center;
-  width: 16vw;
+  width: 17.5vw;
   border: 1.5px solid black;
   box-shadow: -3px 4px 0px black;
 }
 
-.demo-tag {
-  color: #fffff4;
-  background-color: black;
-  border: 2px solid black;
-  box-shadow: -3px 4px 0px black;
-}
+/* ------------- Details Section ------------- */
 
 .details-wrapper {
   width: 100%;
   display: flex;
   border-bottom: 1.3px solid black;
 }
+
 .details-left {
   width: 60%;
   display: flex;
@@ -60,25 +59,30 @@
   justify-content: flex-start;
   position: relative;
 }
+
+.details-right {
+  width: 40%;
+  border-left: solid black 1.3px;
+  position: relative;
+}
+
 .project-info-title {
   border-bottom: 1.3px solid black;
   padding: 0.5rem 1rem;
 }
-.details-right {
-  width: 40%;
 
-  border-left: solid black 1.3px;
-  position: relative;
-}
 .description-text {
   width: 98%;
   padding: 0.5rem 1rem 1rem 1rem;
 }
 
+/* ------------- Accordion Section ------------- */
+
 .accordion {
   width: 100%;
   background: linear-gradient(0deg, #fbfbf6 5%, #fa97d8 99%);
 }
+
 .accordion-row {
   padding: 0.5rem 1rem;
   border-bottom: 1.3px solid black;
@@ -86,16 +90,18 @@
 
 .accordion-title-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center;
   cursor: pointer;
 }
+
 .accordion-title,
 .project-info-title {
   font-family: "Sohne Breit halbfett";
   font-size: 1.3rem;
   text-transform: uppercase;
 }
+
 .accordion-text {
   padding: 0.5rem 0;
   transition: max-height 0.3s ease-in-out;
@@ -103,21 +109,30 @@
   max-height: 100%;
 }
 
+/* ------------- Key Animation Fix for Icon Rotation ------------- */
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for rotation */
+}
+
+/* Ensure this rule has higher priority and is not overridden */
+.icon-wrapper.open {
+  transform: rotate(180deg); /* Rotate icon when accordion is open */
+}
+
 .react-icon {
   font-size: 1.5rem;
   transition: transform 0.3s ease-in-out;
 }
-.demo-link:hover .react-icon {
-  transform: translate(5px, -5px);
-}
 
-.icon-wrapper.open {
-  transform: rotate(180deg); /* Rotate icon when open */
-}
+/* ------------- Demo Link Section ------------- */
 
-/* Demo link hover effect */
 .demo-link {
   display: flex;
+  justify-content: flex-start; 
   align-items: center;
   gap: 0.5rem;
   color: #000;
@@ -127,23 +142,16 @@
 
 .demo-link:hover {
   color: #007bff;
-  transform: translateX(5px);
+  transform: translateX(3px);
 }
 
-.demo-link:hover .arrow-icon {
-  transform: translateX(5px);
-}
-
-.arrow-icon {
+.demo-arrow {
+  font-size: 1.5rem;
   transition: transform 0.3s ease-in-out;
 }
-.icon-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.3s ease-in-out; /* Smooth rotation */
+
+.demo-link:hover .demo-arrow {
+  transform: translateX(3px); 
 }
 
-.icon-wrapper.open .react-icon {
-  transform: rotate(180deg); /* Rotate when open */
-}
+

@@ -63,7 +63,7 @@ const HeaderWeb = ({ title, type, description, demo, technology }) => {
               className="accordion-title-wrapper demo-link"
             >
               <p className="accordion-title">Demo Website</p>
-              <FiArrowUpRight className="react-icon" />
+              <FiArrowUpRight className="demo-arrow" />{" "}
             </a>
           </div>
           <p className="project-info-title">Project Info</p>

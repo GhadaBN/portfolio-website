@@ -1,8 +1,8 @@
 [
   {
     "id": "tomato-social-club",
-    "title": "Tomato Social",
-    "type": ["Web Development", "Technology Stack"],
+    "title": "Tomato Social Club",
+    "type": ["Web Development"],
     "description": [
       "Tomato Social Club is a fullstack Web-first application for food delivery built using the MERN stack. This platform provides a seamless and intuitive experience for customers. With integrated Stripe payment processing, Tomato Social Club ensures secure and efficient transactions."
     ],
@@ -20,7 +20,7 @@
   {
     "id": "pour-decisions",
     "title": "Pour Decisions",
-    "type": ["Web Development", "Technology Stack"],
+    "type": ["Web Development"],
     "description": [
       "Pour Decisions is a cocktail recipes application built using React.js. With a focus on user-generated content, this application allows you to add your own recipes which you can save to your cocktail collection. The user can also browse through a prexisting collection of recipes. "
     ],
@@ -34,7 +34,7 @@
   {
     "id": "fluffy-dog",
     "title": "Fluffy Dog",
-    "type": ["Web Development", "Technology Stack"],
+    "type": ["Web Development"],
     "description": [
       "Fluffy Dog is a 2D game web application developed using DOM manipulation techniques and vanilla Javascript. Inspired by the classic Flappy Bird, this game brings a delightful twist with a charming canine protagonist. In Fluffy Dog, players guide the dog through a series of obstacles, aiming to achieve the highest score possible."
     ],
@@ -108,7 +108,7 @@
   },
   {
     "id": "adidas",
-    "title": "Adidas Uniforia",
+    "title": "Adidas SS20 Uniforia",
     "type": ["Graphic Design"],
     "description": [
       "During my internship at Atttd studio design, I was part of the design team working on Adidas Uniforia Pack SS20. The visual language uses principles of arts and crafts born out of the collection’s artsy design markers. All paint strokes were handcrafted and digitised through a process that mixes analogue and digital techniques, drawing a parallel between the imperfect nature of sports and arts.",

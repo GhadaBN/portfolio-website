@@ -7,17 +7,6 @@
   overflow-y: auto;
 }
 
-/* .details-wrapper {
-  margin-top: 0.5rem;
-  width: 80%;
-  margin-left: 1rem;
-  justify-content: flex-start;
-}
-
-.details {
-  width: 70%;
-} */
-
 .navigation-buttons {
   display: flex;
   width: 100%;

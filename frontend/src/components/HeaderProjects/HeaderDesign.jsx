@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./HeaderProjects.css";
+import { FiPlus, FiMinus } from "react-icons/fi";
+
 const HeaderDesign = ({
   title,
   type,
@@ -10,7 +12,8 @@ const HeaderDesign = ({
   team,
 }) => {
   const [openAccordion, setOpenAccordion] = useState(null);
-  //Toggle Accordion Function
+
+  // Toggle Accordion Function
   const toggleAccordion = (index) => {
     setOpenAccordion(openAccordion === index ? null : index);
   };
@@ -30,47 +33,73 @@ const HeaderDesign = ({
       <div className="details-wrapper">
         <div className="details-left">
           <div className="accordion">
+            {/* Accordion for Client */}
             <div className="accordion-row">
               <div
                 className="accordion-title-wrapper"
                 onClick={() => toggleAccordion(0)}
               >
                 <p className="accordion-title">Client</p>
-                <p className="accordion-title">
-                  {openAccordion === 0 ? "-" : "+"}
-                </p>
+                <div
+                  className={`icon-wrapper ${
+                    openAccordion === 0 ? "open" : ""
+                  }`}
+                >
+                  {openAccordion === 0 ? (
+                    <FiMinus className="react-icon rotate" />
+                  ) : (
+                    <FiPlus className="react-icon rotate" />
+                  )}
+                </div>
               </div>
-
               {openAccordion === 0 && (
                 <p className="accordion-text">{client}</p>
               )}
             </div>
 
+            {/* Accordion for Agency */}
             <div className="accordion-row">
               <div
                 className="accordion-title-wrapper"
                 onClick={() => toggleAccordion(1)}
               >
                 <p className="accordion-title">Agency</p>
-                <p className="accordion-title">
-                  {openAccordion === 1 ? "-" : "+"}
-                </p>
+                <div
+                  className={`icon-wrapper ${
+                    openAccordion === 1 ? "open" : ""
+                  }`}
+                >
+                  {openAccordion === 1 ? (
+                    <FiMinus className="react-icon rotate" />
+                  ) : (
+                    <FiPlus className="react-icon rotate" />
+                  )}
+                </div>
               </div>
               {openAccordion === 1 && (
                 <p className="accordion-text">{agency}</p>
               )}
             </div>
+
+            {/* Accordion for Awards */}
             <div className="accordion-row">
               <div
                 className="accordion-title-wrapper"
                 onClick={() => toggleAccordion(2)}
               >
                 <p className="accordion-title">Awards</p>
-                <p className="accordion-title">
-                  {openAccordion === 2 ? "-" : "+"}
-                </p>
+                <div
+                  className={`icon-wrapper ${
+                    openAccordion === 2 ? "open" : ""
+                  }`}
+                >
+                  {openAccordion === 2 ? (
+                    <FiMinus className="react-icon rotate" />
+                  ) : (
+                    <FiPlus className="react-icon rotate" />
+                  )}
+                </div>
               </div>
-
               {openAccordion === 2 && (
                 <div className="accordion-text">
                   {awards?.map((award, index) => (
@@ -79,21 +108,31 @@ const HeaderDesign = ({
                 </div>
               )}
             </div>
+
+            {/* Accordion for Team */}
             <div className="accordion-row">
               <div
                 className="accordion-title-wrapper"
                 onClick={() => toggleAccordion(3)}
               >
                 <p className="accordion-title">Team</p>
-                <p className="accordion-title">
-                  {openAccordion === 3 ? "-" : "+"}
-                </p>
+                <div
+                  className={`icon-wrapper ${
+                    openAccordion === 3 ? "open" : ""
+                  }`}
+                >
+                  {openAccordion === 3 ? (
+                    <FiMinus className="react-icon rotate" />
+                  ) : (
+                    <FiPlus className="react-icon rotate" />
+                  )}
+                </div>
               </div>
               {openAccordion === 3 && (
                 <div className="accordion-text">
-                  {team.map((team, index) => (
+                  {team?.map((member, index) => (
                     <p key={index} className="">
-                      {team}
+                      {member}
                     </p>
                   ))}
                 </div>
@@ -104,9 +143,9 @@ const HeaderDesign = ({
         <div className="details-right">
           <p className="project-info-title">Project Info</p>
           <div className="description-text">
-            {description.map((description, index) => (
+            {description.map((desc, index) => (
               <p key={index} className="paragraph-text">
-                {description}
+                {desc}
               </p>
             ))}
           </div>

@@ -87,6 +87,8 @@
 .accordion-title-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
 }
 .accordion-title,
 .project-info-title {
@@ -96,4 +98,52 @@
 }
 .accordion-text {
   padding: 0.5rem 0;
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.react-icon {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+.demo-link:hover .react-icon {
+  transform: translate(5px, -5px);
+}
+
+.icon-wrapper.open {
+  transform: rotate(180deg); /* Rotate icon when open */
+}
+
+/* Demo link hover effect */
+.demo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #000;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.demo-link:hover {
+  color: #007bff;
+  transform: translateX(5px);
+}
+
+.demo-link:hover .arrow-icon {
+  transform: translateX(5px);
+}
+
+.arrow-icon {
+  transition: transform 0.3s ease-in-out;
+}
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out; /* Smooth rotation */
+}
+
+.icon-wrapper.open .react-icon {
+  transform: rotate(180deg); /* Rotate when open */
 }

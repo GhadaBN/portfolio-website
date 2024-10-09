@@ -32,6 +32,8 @@ const Project = () => {
           title={project.title}
           type={project.type}
           description={project.description}
+          demo={project.demo}
+          technology={project.technology}
         />
       )}
     </div>

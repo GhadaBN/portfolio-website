@@ -89,7 +89,9 @@
       "Adforum"
     ],
     "photoCover": [],
-    "vimeoVideos": ["https://vimeo.com/737487952"],
+    "videoCover": "/rotkohl_cover.png",
+    "caseVideo": "https://www.dropbox.com/scl/fi/mttfqwg7h3wl7mqfgq95o/red_cabbage.mp4?rlkey=v3nfksipda0d4invxmf7cd0wq&st=zgminmoj&raw=1",
+
     "vimeoVideosPortrait": ["https://vimeo.com/742957831"]
   },
   {

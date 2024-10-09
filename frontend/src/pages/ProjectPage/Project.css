@@ -1,5 +1,4 @@
 .project-page {
-  width: 98%;
   margin: 1rem auto;
   position: relative;
   display: flex;
@@ -8,76 +7,7 @@
   overflow-y: auto;
 }
 
-.project-name-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 5rem auto;
-  width: 100%;
-}
-
-.project-name {
-  text-transform: uppercase;
-  overflow: hidden;
-  display: inline-block;
-  text-align: center;
-}
-
-.intro-sections-wrapper {
-  width: 95%;
-  margin: 0 auto 2rem auto;
-  display: flex;
-}
-
-.right-section,
-.left-section {
-  width: 50%;
-}
-
-.project-info-text {
-  width: 90%;
-}
-
-.paragraph-text {
-  margin: 0.5rem 0rem 0.5rem 0.5rem;
-}
-
-.tags-container,
-.project-info-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 1rem;
-}
-
-.type-tag,
-.project-info-title,
-.demo-tag {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0rem 1.5rem 1rem 0;
-  padding: 0.2rem;
-
-  border-radius: 1.5rem;
-
-  white-space: nowrap;
-  text-align: center;
-  width: 16vw;
-}
-
-.type-tag,
-.project-info-title,
-.demo-tag {
-  border: 2px solid black;
-  box-shadow: -3px 4px 0px black;
-}
-.demo-tag {
-  color: #fffff4;
-  background-color: black;
-  border: 2px solid black;
-  box-shadow: -3px 4px 0px black;
-}
-.details-wrapper {
+/* .details-wrapper {
   margin-top: 0.5rem;
   width: 80%;
   margin-left: 1rem;
@@ -86,7 +16,7 @@
 
 .details {
   width: 70%;
-}
+} */
 
 .navigation-buttons {
   display: flex;

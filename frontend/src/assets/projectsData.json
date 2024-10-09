@@ -4,8 +4,7 @@
     "title": "Tomato Social Club",
     "type": ["Web Development", "Technology Stack"],
     "description": [
-      "Tomato Social Club is a fullstack Web-first application for food delivery built using the MERN stack. This platform provides a seamless and intuitive experience for customers. With integrated Stripe payment processing, Tomato Social Club ensures secure and efficient transactions.",
-      ""
+      "Tomato Social Club is a fullstack Web-first application for food delivery built using the MERN stack. This platform provides a seamless and intuitive experience for customers. With integrated Stripe payment processing, Tomato Social Club ensures secure and efficient transactions."
     ],
     "technology": [
       "React.js: Builds the interactive and responsive user interface.",
@@ -70,8 +69,7 @@
     "title": "Gorillas Delivery",
     "type": ["Graphic Design", "Art Direction"],
     "description": [
-      "Grocery delivery services are booming and they all only talk about one thing: speed. With a different approach, a very slow one, Gorillas serves up an arthouse short film on YouTube that is about as long as the Gorillas delivery time: 8 minutes. \"Red Cabbage\" tells the story of Rod Kohl, who gets forgotten on a night bus and meets all sorts of strangers. He takes the audience into a cosmos that is very popular with the young target group and in which time doesn't matter: the Berlin night.",
-      "The social blockbuster is full of humorous details such as a fake bumper ad, weird side stories and, above all, hidden voucher codes that encourage people to order and watch the film. Over and over again."
+      "Grocery delivery services are booming and they all only talk about one thing: speed. With a different approach, a very slow one, Gorillas serves up an arthouse short film on YouTube that is about as long as the Gorillas delivery time: 8 minutes. \"Red Cabbage\" tells the story of Rod Kohl, who gets forgotten on a night bus and meets all sorts of strangers. He takes the audience into a cosmos that is very popular with the young target group and in which time doesn't matter: the Berlin night."
     ],
     "team": [
       "ECD: Johannes Hicks",
@@ -79,9 +77,17 @@
       "Sr Creative: Annemarie Longtine",
       "AD: Ghada Bennasr"
     ],
-    "agency": "Agency: Mediamonks",
-    "client": "Client: Gorillas Delivery",
-    "awards": "Awards: ACD Junior Silver",
+    "agency": "Mediamonks",
+    "client": "Gorillas Delivery",
+    "awards": [
+      "Ciclope – Bronze",
+      "ADC Global – SL",
+      "ADC – 1x Bronze, 1x SL",
+      "ADC Junior – Silver (Ghada Bennasr)",
+      "Ad Age – Editor’s Pick",
+      "W&V – Top der Woche",
+      "Adforum"
+    ],
     "photoCover": [],
     "vimeoVideos": ["https://vimeo.com/737487952"],
     "vimeoVideosPortrait": ["https://vimeo.com/742957831"]

@@ -4,7 +4,7 @@ import "./Project.css";
 import projectData from "../../assets/projectsData.json";
 import HeaderDesign from "../../components/HeaderProjects/HeaderDesign";
 import HeaderWeb from "../../components/HeaderProjects/HeaderWeb";
-import Layout01 from "../../components/ProjectLayout/Layout01";
+import Layout01 from "../../components/ProjectLayout/CaseVideo/CaseVideo";
 
 const Project = () => {
   let { projectId } = useParams();

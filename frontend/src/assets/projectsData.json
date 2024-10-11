@@ -66,16 +66,21 @@
   },
   {
     "id": "gorillas-delivery",
-    "title": "Gorillas Delivery",
-    "type": ["Graphic Design", "Art Direction"],
+    "title": "Gorillas Rotkohl",
+    "type": ["Art Direction"],
     "description": [
       "Grocery delivery services are booming and they all only talk about one thing: speed. With a different approach, a very slow one, Gorillas serves up an arthouse short film on YouTube that is about as long as the Gorillas delivery time: 8 minutes. \"Red Cabbage\" tells the story of Rod Kohl, who gets forgotten on a night bus and meets all sorts of strangers. He takes the audience into a cosmos that is very popular with the young target group and in which time doesn't matter: the Berlin night."
     ],
     "team": [
       "ECD: Johannes Hicks",
-      "Sr Creative: Lia Hermann",
-      "Sr Creative: Annemarie Longtine",
-      "AD: Ghada Bennasr"
+      "Creative Lead: Lia Hermann",
+      "Creative Lead: Anne Marie Longtine",
+      "Creative: Junggle Kim",
+      "Creative: Tobin Hecker",
+      "Creative: Ghada Bennasr",
+      "Motion Designer: Aaron McCammon",
+      "Project Director:Anne Kammeier",
+      "Sound Design: Kraatz Studio"
     ],
     "agency": "Mediamonks",
     "client": "Gorillas Delivery",
@@ -90,7 +95,7 @@
     ],
     "photoCover": [],
     "videoCover": "/rotkohl_cover.png",
-    "caseVideo": "https://www.dropbox.com/scl/fi/mttfqwg7h3wl7mqfgq95o/red_cabbage.mp4?rlkey=v3nfksipda0d4invxmf7cd0wq&st=zgminmoj&raw=1",
+    "caseVideo": "https://www.dropbox.com/scl/fi/x9kl7xwmyu7qmq1xo8rmo/gorillas_rotkohl.mp4?rlkey=69sjj0l52zkil3fsd7gz63oqq&st=0zd8cnla&raw=1",
 
     "vimeoVideosPortrait": ["https://vimeo.com/742957831"]
   },

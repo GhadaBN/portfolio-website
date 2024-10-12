@@ -1,0 +1,15 @@
+.cover-project-container {
+  margin: 0.5rem auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  max-width: 95vw;
+}
+
+.cover-project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

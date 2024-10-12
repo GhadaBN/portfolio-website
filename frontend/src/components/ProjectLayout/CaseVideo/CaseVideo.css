@@ -1,40 +1,38 @@
-.video-wrapper {
-  margin: 2rem auto;
-  position: relative;
+.section {
+  width: 95%;
+  height: 98vh;
+  margin: 1rem auto;
+  background-color: #f1f1f1;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  max-width: 70%;
+  place-items: center;
+}
+
+.video-text-wrapper {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 1rem;
+  width: 95vw;
+  padding: 1rem;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
   aspect-ratio: 16 / 9;
   border-radius: 0.5rem;
+  overflow: hidden;
 }
 
 .minimalist-player {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 1rem;
 }
 
-.play-button-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.info2-container {
+  padding: 1rem;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.5); /* Transparent overlay */
-  cursor: pointer;
-}
-
-.play-icon {
-  color: rgb(241, 241, 241);
-  font-size: 4rem;
-}
-
-/* Hover effect for showing controls */
-.video-wrapper:hover .minimalist-player {
-  transition: opacity 0.3s ease-in-out;
 }

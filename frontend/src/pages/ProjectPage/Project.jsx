@@ -4,7 +4,9 @@ import "./Project.css";
 import projectData from "../../assets/projectsData.json";
 import HeaderDesign from "../../components/HeaderProjects/HeaderDesign";
 import HeaderWeb from "../../components/HeaderProjects/HeaderWeb";
-import Layout01 from "../../components/ProjectLayout/CaseVideo/CaseVideo";
+import CaseVideo from "../../components/ProjectLayout/CaseVideo/CaseVideo";
+import VideoPortrait from "../../components/ProjectLayout/VideoPortrait/VideoPortrait";
+import CoverProject from "../../components/ProjectLayout/CoverProject/CoverProject";
 
 const Project = () => {
   let { projectId } = useParams();
@@ -35,8 +37,12 @@ const Project = () => {
           technology={project.technology}
         />
       )}
-
-      <Layout01 caseVideo={project.caseVideo} />
+      <CoverProject coverProject={project.coverProject} />
+      <CaseVideo
+        caseVideo={project.caseVideo}
+        description2={project.description2}
+      />
+      <VideoPortrait videoPortrait={project.videoPortrait} />
     </div>
   );
 };

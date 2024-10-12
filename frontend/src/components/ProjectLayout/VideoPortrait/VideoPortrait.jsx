@@ -1,35 +1,36 @@
 import React, { useState } from "react";
+import "./VideoPortrait.css";
 import ReactPlayer from "react-player";
 import { IoIosPlay } from "react-icons/io";
-import "./CaseVideo.css";
 
-const CaseVideo = ({ caseVideo, description2 }) => {
-  const [isPlaying, setIsPlaying] = useState(false);
+const VideoPortrait = ({ videoPortrait }) => {
+  const [activeVideoIndex, setActiveVideoIndex] = useState(null);
   const [showControls, setShowControls] = useState(false);
 
-  const handlePlay = () => {
-    setIsPlaying(true);
+  const handlePlay = (index) => {
+    setActiveVideoIndex(index);
   };
 
   const handleVideoEnd = () => {
-    setIsPlaying(false);
+    setActiveVideoIndex(null);
   };
 
   return (
-    <div className="section">
-      <div className="video-text-wrapper">
+    <div className="video-portrait-container">
+      {videoPortrait.map((video, index) => (
         <div
-          className="video-wrapper"
+          key={index}
+          className="video-portrait-wrapper"
           onMouseEnter={() => setShowControls(true)}
           onMouseLeave={() => setShowControls(false)}
         >
           <ReactPlayer
-            url={caseVideo}
-            playing={isPlaying}
+            url={video}
+            playing={activeVideoIndex === index}
             controls={showControls}
             width="100%"
             height="100%"
-            onPlay={handlePlay}
+            onPlay={() => handlePlay(index)}
             onEnded={handleVideoEnd}
             config={{
               file: {
@@ -41,18 +42,18 @@ const CaseVideo = ({ caseVideo, description2 }) => {
             }}
             className="minimalist-player"
           />
-          {!isPlaying && (
-            <div className="play-button-overlay" onClick={handlePlay}>
+          {activeVideoIndex !== index && (
+            <div
+              className="play-button-overlay"
+              onClick={() => handlePlay(index)}
+            >
               <IoIosPlay className="play-icon" />
             </div>
           )}
         </div>
-        <div className="info2-container">
-          <p className="">{description2}</p>
-        </div>
-      </div>
+      ))}
     </div>
   );
 };
 
-export default CaseVideo;
+export default VideoPortrait;

@@ -2,7 +2,7 @@
 
 .header-project-container {
   width: 100%;
-  margin-bottom: 5rem;
+  margin-bottom: 0;
 }
 
 .project-title-container {
@@ -59,7 +59,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
-  padding-bottom: 2.7rem;
 }
 
 .details-right {

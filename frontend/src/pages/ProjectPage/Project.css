@@ -45,8 +45,8 @@
   width: 13rem;
   height: auto;
   cursor: pointer;
-  margin-right: -2rem;
-  bottom: -5.5px;
+  margin-right: -1rem;
+  bottom: -5.4px;
 }
 
 .tab:nth-child(1) {
@@ -66,7 +66,7 @@
 }
 
 .tab-svg {
-  width: 100%;
+  width: 110%;
   height: auto;
 }
 
@@ -75,8 +75,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Sohne Breit halbfett";
-  font-size: 0.7rem;
+  font-family: "Sohne Breit Dreiviertelfett";
+  font-size: 0.9rem;
   text-transform: uppercase;
   pointer-events: none;
   text-align: center;

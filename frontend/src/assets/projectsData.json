@@ -165,7 +165,7 @@
         "src": "/bundesliga_01.png"
       }
     ],
-    "photoSection2": ["/bundesliga_02.png"]
+    "imageSection01": ["/bundesliga_02.png"]
   },
   {
     "id": "adidas",
@@ -183,9 +183,9 @@
         "src": "/adidas_uniforia_pack.jpg"
       }
     ],
-    "sectionImage01": ["/adidas_2.png", "/adidas_4.png"],
-    "sectionImage02": ["/adidas_1.png", "/adidas_3.png"],
-    "demoVideo": ["/adidas_video.mp4"]
+    "demoVideo": ["/adidas_video.mp4"],
+    "imageSection01": ["/adidas_2.png", "/adidas_4.png"],
+    "imageSection02": ["/adidas_1.png", "/adidas_3.png"]
   },
   {
     "id": "gorillas-eoy",
@@ -221,8 +221,7 @@
     "description": [
       "Our campaign for the 2 Series Active Tourer is a testament to adaptability, mirroring the versatility of life itself. With a plug-and-play production approach, we created a multitude of adaptations, each tailored to different markets, target audiences, and customer journey stages.",
       "Despite it being a product launch campaign, we didn’t focus only on technical features but on what they can do for you. With many small stories, all coming from A TOUR CALLED LIFE."
-    ],
-    "photoSection1": []
+    ]
   },
   {
     "id": "tinder",
@@ -245,7 +244,7 @@
       }
     ],
 
-    "photo80": ["/tinder_2.jpg"],
+    "imageSection01": ["/tinder_2.jpg"],
     "demoVideo": ["/tinder_animation.mp4"]
   }
 ]

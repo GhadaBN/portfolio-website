@@ -46,6 +46,17 @@ const DesignDirection = () => {
           </ul>
         </div>
 
+        {/* <div id="line-5" className="line">
+          <ul className="">
+            <li>
+              <Link to="/project/bmw">
+                <img src={assets.spiral_icon} className="spiral-icon" />
+                <span className="title-project">BMW</span>
+                <img src={assets.bmw_icon} className="thumbnail" />
+              </Link>
+            </li>
+          </ul>
+        </div> */}
         <div id="line-5" className="line">
           <ul className="">
             <li>

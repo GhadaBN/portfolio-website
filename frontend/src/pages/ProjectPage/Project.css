@@ -67,7 +67,7 @@
 }
 
 .tab.active {
-  z-index: 20; /* Increased z-index for active tab to ensure it is on top */
+  z-index: 20;
 }
 
 .tab-svg {
@@ -88,7 +88,7 @@
 }
 
 .line-h-menu {
-  z-index: 7; /* Ensures the line is behind the active tab but above inactive ones */
+  z-index: 7;
   background-color: black;
   width: 100%;
   height: 1.5px;

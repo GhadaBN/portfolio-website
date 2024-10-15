@@ -36,32 +36,34 @@
   box-sizing: border-box;
   font-family: outfit;
 }
-
+html,
 body {
-  min-height: 90vh;
-  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   overflow-x: hidden;
   background-color: #ffffff;
-  -webkit-font-smoothing: antialiased;
 }
-body.home-page {
+
+body {
+  display: flex;
+  flex-direction: column;
   background-color: #fbfbf6;
 }
 
-body.project-page {
-  background-color: #fbfbf6;
+.app {
+  flex-grow: 1;
+  padding-top: 3rem;
+  width: 100%;
+  margin: auto;
+  position: relative;
+
+  overflow: auto;
 }
 
 a {
   text-decoration: none;
   color: black;
-}
-
-.app {
-  padding-top: 3rem;
-  width: 100%;
-  margin: auto;
-  overflow: auto;
 }
 
 li {

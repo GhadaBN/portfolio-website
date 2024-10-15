@@ -1,8 +1,12 @@
 /* ------------- Project Header ------------- */
 
 .header-project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   margin-bottom: 0;
+  flex-grow: 1;
 }
 
 .project-title-container {

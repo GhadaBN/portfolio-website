@@ -86,7 +86,7 @@ const Project = () => {
               <div
                 className={`tab ${activeTab === "cover" ? "active" : ""}`}
                 onClick={() => setActiveTab("cover")}
-                style={{ zIndex: activeTab === "cover" ? 20 : 6 }} // Adjust z-index
+                style={{ zIndex: activeTab === "cover" ? 20 : 6 }}
               >
                 <img
                   src={assets.tab_shape}
@@ -102,7 +102,7 @@ const Project = () => {
               <div
                 className={`tab ${activeTab === "video" ? "active" : ""}`}
                 onClick={() => setActiveTab("video")}
-                style={{ zIndex: activeTab === "video" ? 20 : 5 }} // Adjust z-index
+                style={{ zIndex: activeTab === "video" ? 20 : 5 }}
               >
                 <img
                   src={assets.tab_shape}
@@ -117,7 +117,7 @@ const Project = () => {
               <div
                 className={`tab ${activeTab === "portrait" ? "active" : ""}`}
                 onClick={() => setActiveTab("portrait")}
-                style={{ zIndex: activeTab === "portrait" ? 20 : 4 }} // Adjust z-index
+                style={{ zIndex: activeTab === "portrait" ? 20 : 4 }}
               >
                 <img
                   src={assets.tab_shape}
@@ -132,14 +132,14 @@ const Project = () => {
               <div
                 className={`tab ${activeTab === "demo-vid" ? "active" : ""}`}
                 onClick={() => setActiveTab("demo-vid")}
-                style={{ zIndex: activeTab === "demo-vid" ? 20 : 3 }} // Adjust z-index
+                style={{ zIndex: activeTab === "demo-vid" ? 20 : 3 }}
               >
                 <img
                   src={assets.tab_shape}
                   alt="Binder Tab"
                   className="tab-svg"
                 />
-                <span className="tab-title">04</span>
+                <span className="tab-title">Video</span>
               </div>
             )}
 
@@ -147,14 +147,14 @@ const Project = () => {
               <div
                 className={`tab ${activeTab === "image-01" ? "active" : ""}`}
                 onClick={() => setActiveTab("image-01")}
-                style={{ zIndex: activeTab === "image-01" ? 20 : 2 }} // Adjust z-index
+                style={{ zIndex: activeTab === "image-01" ? 20 : 2 }}
               >
                 <img
                   src={assets.tab_shape}
                   alt="Binder Tab"
                   className="tab-svg"
                 />
-                <span className="tab-title">04</span>
+                <span className="tab-title">Print</span>
               </div>
             )}
 
@@ -162,14 +162,14 @@ const Project = () => {
               <div
                 className={`tab ${activeTab === "image-02" ? "active" : ""}`}
                 onClick={() => setActiveTab("image-02")}
-                style={{ zIndex: activeTab === "image-02" ? 20 : 1 }} // Adjust z-index
+                style={{ zIndex: activeTab === "image-02" ? 20 : 1 }}
               >
                 <img
                   src={assets.tab_shape}
                   alt="Binder Tab"
                   className="tab-svg"
                 />
-                <span className="tab-title">04</span>
+                <span className="tab-title">Print</span>
               </div>
             )}
           </div>

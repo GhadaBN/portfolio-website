@@ -49,6 +49,14 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #fbfbf6;
+  cursor: url("/cursor-default.svg"), default;
+}
+
+a,
+button,
+input[type="submit"],
+input[type="button"] {
+  cursor: url("/cursor-pointer.svg"), pointer;
 }
 
 .app {

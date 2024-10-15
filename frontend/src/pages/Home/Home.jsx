@@ -1,11 +1,11 @@
 import React from "react";
 import "./Home.css";
 import Header from "../../components/Header/Header";
-import IntroAbout from "../../components/Header/IntroAbout/IntroAbout";
+import IntroText from "../../components/Header/IntroText/IntroText";
 const Home = () => {
   return (
     <div className="home">
-      <IntroAbout />
+      <IntroText />
       {/* <Header /> */}
     </div>
   );

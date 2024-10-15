@@ -1,10 +1,28 @@
 import React from "react";
+import ReactPlayer from "react-player";
 import "./CoverProject.css";
 
 const CoverProject = ({ coverProject }) => {
   return (
     <div className="cover-project-container">
-      <img src={coverProject} className="cover-project-img" />
+      {coverProject?.map((item, index) => (
+        <div key={index} className="cover-item">
+          {item.type === "video" ? (
+            <ReactPlayer
+              url={item.src}
+              playing
+              loop
+              muted
+              controls={false}
+              width="100%"
+              height="100%"
+              className="project-video"
+            />
+          ) : (
+            <img src={item.src} alt="Cover" className="cover-project-img" />
+          )}
+        </div>
+      ))}
     </div>
   );
 };

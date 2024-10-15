@@ -13,8 +13,32 @@
       "MongoDB: Utilized as the NoSQL database to store user, restaurant, and order data.",
       "Stripe API: Payment Integration with Stripe API facilitates secure and efficient payment processing for transactions on the platform."
     ],
-    "videoCover": ["/tomato_social_video.mov"],
-    "coverProject": [],
+    "coverProject": [
+      {
+        "type": "video",
+        "src": "/tomato_social_video.mov"
+      }
+    ],
+    "demo": ["https://tomato-social-frontend.onrender.com/"]
+  },
+  {
+    "id": "wallet-app",
+    "title": "Mobile Wallet App",
+    "type": ["Web Development"],
+    "description": [
+      "Developed using React Native for mobile interface development, the app allows users to scroll through their stack of cards, simulating a smooth and interactive experience inspired by the original Apple Wallet. It demonstrates the integration of animated interactions and gesture handling to create a polished and engaging user experience."
+    ],
+    "technology": [
+      "React Native: Used for building the cross-platform mobile application with a focus on performance and native-like UI experience.",
+      "Reanimated: Enables smooth animations and interactions, providing fluid, natural movement for the card-swiping and scrolling effects.",
+      "Gesture Handler: Simplifies touch interactions like swiping and scrolling without performance loss."
+    ],
+    "coverProject": [
+      {
+        "type": "video",
+        "src": "/wallet_app_demo.mp4"
+      }
+    ],
     "demo": ["https://tomato-social-frontend.onrender.com/"]
   },
   {
@@ -28,7 +52,13 @@
       "React.js: Provides a dynamic and responsive user interface, allowing for smooth interactions and updates.",
       "In-Browser Storage: User-generated recipes and application data are stored temporarily in the browser. Data will be lost upon refreshing the page."
     ],
-    "CoverProject": ["/pour_decisions_screen.png"],
+    "coverProject": [
+      {
+        "type": "image",
+        "src": "/pour_decisions_screen.png"
+      }
+    ],
+
     "demo": ["https://pour-decisions.netlify.app/"]
   },
   {
@@ -38,19 +68,25 @@
     "description": [
       "Fluffy Dog is a 2D game web application developed using DOM manipulation techniques and vanilla Javascript. Inspired by the classic Flappy Bird, this game brings a delightful twist with a charming canine protagonist. In Fluffy Dog, players guide the dog through a series of obstacles, aiming to achieve the highest score possible."
     ],
+
     "technology": [
       "HTML5: Structures the game's content and elements.",
       "CSS3: Styles the game, enhancing visual appeal and responsiveness.",
       "JavaScript: Powers the game's logic and interactivity through DOM manipulation."
     ],
-    "coverProject": [],
-    "photo80": ["/fluffy_dog_1.png"],
-    "videos": [],
+
+    "coverProject": [
+      {
+        "type": "image",
+        "src": "/fluffy_dog_1.png"
+      }
+    ],
+
     "demo": ["https://fluffy-dog-game.netlify.app/"]
   },
   {
     "id": "dev-roast",
-    "title": "Developers Roast",
+    "title": "Dev Roast",
     "type": ["Web Development", "Technology Stack"],
     "description": [
       "Dev Roast is an interactive web-first application game survey. It combines the power of React.js, Tailwind CSS, and a dynamic JSON server to deliver a seamless quiz experience."
@@ -60,12 +96,16 @@
       "JSON Server: Serves as a lightweight backend, managing and updating questions and user data, which enables the application to handle CRUD operations seamlessly.",
       "Axios: Used for making HTTP requests to the JSON server, enabling efficient data retrieval and updates."
     ],
-    "coverProject": [],
-    "videoCover": ["/dev_roast_video.mov"],
+    "coverProject": [
+      {
+        "type": "video",
+        "src": "/dev_roast_video.mov"
+      }
+    ],
     "demo": ["https://dev-roast.netlify.app/"]
   },
   {
-    "id": "gorillas-delivery",
+    "id": "gorillas-red-cabbage",
     "title": "Gorillas Rotkohl",
     "type": ["Art Direction"],
     "description": [
@@ -94,8 +134,13 @@
       "W&V - Top der Woche",
       "Adforum"
     ],
-    "coverProject": "/rotkohl_cover.png",
-    "videoCover": "/rotkohl_cover.png",
+    "coverProject": [
+      {
+        "type": "image",
+        "src": "/rotkohl_cover.png"
+      }
+    ],
+
     "caseVideo": "https://www.dropbox.com/scl/fi/x9kl7xwmyu7qmq1xo8rmo/gorillas_rotkohl.mp4?rlkey=69sjj0l52zkil3fsd7gz63oqq&st=0zd8cnla&raw=1",
 
     "videoPortrait": [
@@ -114,25 +159,33 @@
     "team": ["ECD: Johannes Hicks", "AD: Ghada Bennasr", "CW: Kevin Chow"],
     "agency": "Agency: Mediamonks",
     "client": "Client: Gorillas Delivery",
-    "coverProject": ["/bundesliga_01.png"],
-    "photoSection2": ["/bundesliga_02.png"],
-    "videos": []
+    "coverProject": [
+      {
+        "type": "image",
+        "src": "/bundesliga_01.png"
+      }
+    ],
+    "photoSection2": ["/bundesliga_02.png"]
   },
   {
     "id": "adidas",
     "title": "Adidas SS20 Uniforia",
     "type": ["Graphic Design"],
     "description": [
-      "During my internship at Atttd studio design, I was part of the design team working on Adidas Uniforia Pack SS20. The visual language uses principles of arts and crafts born out of the collection’s artsy design markers. All paint strokes were handcrafted and digitised through a process that mixes analogue and digital techniques, drawing a parallel between the imperfect nature of sports and arts.",
+      "The Adidas Uniforia Pack SS20 project developed a visual language inspired by the principles of arts and crafts. The collection’s unique design elements featured handcrafted paint strokes, digitized through a blend of analogue and digital techniques, reflecting the raw, imperfect beauty found in both sports and art",
       "The retail concept was transformed into a flexible global toolkit catering different global market realities. From small scale to flagship executions."
     ],
-    "agency": "Design Agency: Attitude Studio",
-    "client": "Client: Adidas Football",
-    "coverProject": ["/adidas_uniforia_pack.jpg"],
-    "photoSection1": ["/adidas_2.png", "/adidas_4.png"],
-    "photoSection2": ["/adidas_1.png", "/adidas_3.png"],
-    "photo80": [],
-    "videos70W": ["/adidas_video.mp4"]
+    "agency": " Attitude Studio Design",
+    "client": "Adidas Football",
+    "coverProject": [
+      {
+        "type": "image",
+        "src": "/adidas_uniforia_pack.jpg"
+      }
+    ],
+    "sectionImage01": ["/adidas_2.png", "/adidas_4.png"],
+    "sectionImage02": ["/adidas_1.png", "/adidas_3.png"],
+    "demoVideo": ["/adidas_video.mp4"]
   },
   {
     "id": "gorillas-eoy",
@@ -147,24 +200,29 @@
       "AD: Ghada Bennasr",
       "CW: Kevin Chow"
     ],
-    "agency": "Agency: Mediamonks",
-    "client": "Client: Gorillas Delivery",
-    "photoFull": [],
-    "videos": [],
-    "vimeoVideos": ["https://vimeo.com/743515516"]
+    "agency": "Mediamonks",
+    "client": "Gorillas Delivery",
+    "coverProject": [
+      {
+        "type": "image",
+        "src": "/gorillas_eoy_cover.png"
+      }
+    ],
+    "caseVideo": [
+      "https://www.dropbox.com/scl/fi/abp6jg8sd5inydew6y875/gorillas_eoy_case.mp4?rlkey=qe6cu1ghbed2haoyblo0gj0bm&st=cfxp0xjp&raw=1"
+    ]
   },
   {
     "id": "bmw",
     "title": "BMW",
     "type": ["Art Direction"],
     "role": "Role: Art Direction, Digital campaign German and French Market",
-    "agency": "Agency: Mediamonks",
+    "agency": "Mediamonks",
     "description": [
       "Our campaign for the 2 Series Active Tourer is a testament to adaptability, mirroring the versatility of life itself. With a plug-and-play production approach, we created a multitude of adaptations, each tailored to different markets, target audiences, and customer journey stages.",
       "Despite it being a product launch campaign, we didn’t focus only on technical features but on what they can do for you. With many small stories, all coming from A TOUR CALLED LIFE."
     ],
-    "photoSection1": [],
-    "videos": []
+    "photoSection1": []
   },
   {
     "id": "tinder",
@@ -180,8 +238,14 @@
       "The idea of finding \"the one\" is a socially romanticized view of relationships. Tinder aims to shift this perspective by suggesting that there isn't just one perfect match for each of us; instead, anyone could be \"the one\" — whether they are the funny one, the attractive one, or the intelligent one.",
       "To illustrate this, we imagined a Waldo puzzle made entirely of Waldos, symbolizing how effortlessly you can find not just one, but many perfect matches."
     ],
-    "coverProject": ["/tinder_1.jpg"],
+    "coverProject": [
+      {
+        "type": "image",
+        "src": "/tinder_1.jpg"
+      }
+    ],
+
     "photo80": ["/tinder_2.jpg"],
-    "videos": ["/tinder_animation.mp4"]
+    "demoVideo": ["/tinder_animation.mp4"]
   }
 ]

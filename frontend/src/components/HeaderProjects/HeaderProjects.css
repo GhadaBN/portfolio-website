@@ -11,7 +11,7 @@
   align-items: center;
   width: 100%;
   padding: 2rem 0.5rem;
-  border-bottom: solid black 1.3px;
+  border-bottom: solid black 1.5px;
 }
 
 .project-title {
@@ -50,7 +50,7 @@
 .details-wrapper {
   width: 100%;
   display: flex;
-  border-bottom: 1.3px solid black;
+  border-bottom: 1.5px solid black;
 }
 
 .details-left {
@@ -59,16 +59,17 @@
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
+  /* padding-bottom: 2.7rem; */
 }
 
 .details-right {
   width: 40%;
-  border-left: solid black 1.3px;
+  border-left: solid black 1.5px;
   position: relative;
 }
 
 .project-info-title {
-  border-bottom: 1.3px solid black;
+  border-bottom: 1.5px solid black;
   padding: 0.5rem 1rem;
 }
 
@@ -86,7 +87,7 @@
 
 .accordion-row {
   padding: 0.5rem 1rem;
-  border-bottom: 1.3px solid black;
+  border-bottom: 1.5px solid black;
 }
 
 .accordion-title-wrapper {
@@ -99,7 +100,7 @@
 .accordion-title,
 .project-info-title {
   font-family: "Sohne Breit halbfett";
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
 
@@ -116,12 +117,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s ease-in-out; /* Smooth transition for rotation */
+  transition: transform 0.3s ease-in-out;
 }
 
 /* Ensure this rule has higher priority and is not overridden */
 .icon-wrapper.open {
-  transform: rotate(180deg); /* Rotate icon when accordion is open */
+  transform: rotate(180deg);
 }
 
 .react-icon {

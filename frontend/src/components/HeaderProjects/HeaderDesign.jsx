@@ -33,7 +33,6 @@ const HeaderDesign = ({
       <div className="details-wrapper">
         <div className="details-left">
           <div className="accordion">
-            
             <div className="accordion-row">
               <div
                 className="accordion-title-wrapper"
@@ -57,7 +56,6 @@ const HeaderDesign = ({
               )}
             </div>
 
-            
             <div className="accordion-row">
               <div
                 className="accordion-title-wrapper"
@@ -80,8 +78,6 @@ const HeaderDesign = ({
                 <p className="accordion-text">{agency}</p>
               )}
             </div>
-
-            {/* Accordion for Awards */}
             <div className="accordion-row">
               <div
                 className="accordion-title-wrapper"
@@ -108,8 +104,6 @@ const HeaderDesign = ({
                 </div>
               )}
             </div>
-
-            {/* Accordion for Team */}
             <div className="accordion-row">
               <div
                 className="accordion-title-wrapper"

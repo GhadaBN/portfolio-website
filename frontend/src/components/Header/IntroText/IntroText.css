@@ -1,0 +1,20 @@
+.text-about {
+  font-family: "Sohne Breit Dreiviertelfett";
+  font-size: 7.6vw;
+  line-height: 1;
+  color: black;
+}
+
+.icon-intro-text {
+  height: 5.3rem;
+  margin: 0 8px;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.line-about {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}

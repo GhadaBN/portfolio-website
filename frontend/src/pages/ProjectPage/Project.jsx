@@ -8,6 +8,7 @@ import CaseVideo from "../../components/ProjectLayout/CaseVideo/CaseVideo";
 import VideoPortrait from "../../components/ProjectLayout/VideoPortrait/VideoPortrait";
 import CoverProject from "../../components/ProjectLayout/CoverProject/CoverProject";
 import { assets } from "../../assets/assets";
+import DemoVideo from "../../components/ProjectLayout/DemoVideo/DemoVideo";
 
 const Project = () => {
   const { projectId } = useParams();
@@ -20,21 +21,28 @@ const Project = () => {
   const [activeTab, setActiveTab] = useState("cover");
 
   const renderContent = () => {
-    switch (activeTab) {
-      case "cover":
-        return <CoverProject coverProject={project.coverProject} />;
-      case "video":
-        return (
-          <CaseVideo
-            caseVideo={project.caseVideo}
-            description2={project.description2}
-          />
-        );
-      case "portrait":
-        return <VideoPortrait videoPortrait={project.videoPortrait} />;
-      default:
-        return null;
+    if (activeTab === "cover" && project.coverProject) {
+      return <CoverProject coverProject={project.coverProject} />;
     }
+
+    if (activeTab === "video" && project.caseVideo) {
+      return (
+        <CaseVideo
+          caseVideo={project.caseVideo}
+          description2={project.description2}
+        />
+      );
+    }
+
+    if (activeTab === "portrait" && project.videoPortrait) {
+      return <VideoPortrait videoPortrait={project.videoPortrait} />;
+    }
+
+    if (activeTab === "demo-vid" && project.demoVideo) {
+      return <DemoVideo demoVideo={project.demoVideo} />;
+    }
+
+    return null;
   };
 
   return (
@@ -64,42 +72,65 @@ const Project = () => {
         <div className="empty-space"></div>
         <div className="binder-container">
           <div className="tabs-container">
-            <div
-              className={`tab ${activeTab === "cover" ? "active" : ""}`}
-              onClick={() => setActiveTab("cover")}
-              style={{ zIndex: activeTab === "cover" ? 11 : 1 }}
-            >
-              <img
-                src={assets.tab_shape}
-                alt="Binder Tab"
-                className="tab-svg"
-              />
-              <span className="tab-title">Cover</span>
-            </div>
-            <div
-              className={`tab ${activeTab === "video" ? "active" : ""}`}
-              onClick={() => setActiveTab("video")}
-              style={{ zIndex: activeTab === "video" ? 11 : 3 }}
-            >
-              <img
-                src={assets.tab_shape}
-                alt="Binder Tab"
-                className="tab-svg"
-              />
-              <span className="tab-title">Case Video</span>
-            </div>
-            <div
-              className={`tab ${activeTab === "portrait" ? "active" : ""}`}
-              onClick={() => setActiveTab("portrait")}
-              style={{ zIndex: activeTab === "portrait" ? 11 : 2 }}
-            >
-              <img
-                src={assets.tab_shape}
-                alt="Binder Tab"
-                className="tab-svg"
-              />
-              <span className="tab-title">Video Portrait</span>
-            </div>
+            {project.coverProject && (
+              <div
+                className={`tab ${activeTab === "cover" ? "active" : ""}`}
+                onClick={() => setActiveTab("cover")}
+                style={{ zIndex: activeTab === "cover" ? 11 : 1 }}
+              >
+                <img
+                  src={assets.tab_shape}
+                  alt="Binder Tab"
+                  className="tab-svg"
+                />
+                <span className="tab-title">Overview</span>
+              </div>
+            )}
+
+            {project.caseVideo && (
+              <div
+                className={`tab ${activeTab === "video" ? "active" : ""}`}
+                onClick={() => setActiveTab("video")}
+                style={{ zIndex: activeTab === "video" ? 11 : 3 }}
+              >
+                <img
+                  src={assets.tab_shape}
+                  alt="Binder Tab"
+                  className="tab-svg"
+                />
+                <span className="tab-title">Case Film</span>
+              </div>
+            )}
+
+            {project.videoPortrait && (
+              <div
+                className={`tab ${activeTab === "portrait" ? "active" : ""}`}
+                onClick={() => setActiveTab("portrait")}
+                style={{ zIndex: activeTab === "portrait" ? 11 : 2 }}
+              >
+                <img
+                  src={assets.tab_shape}
+                  alt="Binder Tab"
+                  className="tab-svg"
+                />
+                <span className="tab-title">Teasers</span>
+              </div>
+            )}
+
+            {project.demoVideo && (
+              <div
+                className={`tab ${activeTab === "demo-vid" ? "active" : ""}`}
+                onClick={() => setActiveTab("demo-vid")}
+                style={{ zIndex: activeTab === "demo-vid" ? 11 : 2 }}
+              >
+                <img
+                  src={assets.tab_shape}
+                  alt="Binder Tab"
+                  className="tab-svg"
+                />
+                <span className="tab-title">04</span>
+              </div>
+            )}
 
             <div className="line-h-menu"></div>
           </div>

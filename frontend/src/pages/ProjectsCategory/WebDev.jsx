@@ -9,7 +9,7 @@ const WebDev = () => {
         <div id="line-1" className="line">
           <ul className="">
             <li>
-              <Link to="/project/tomato-social-club">
+              <Link to="/project/wallet-app">
                 <span className="title-project">MOBILE WALLET</span>
                 <img src={assets.a_icon} className="icon-letter" />
                 <span className="title-project">PP</span>

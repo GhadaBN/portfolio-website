@@ -1,190 +1,97 @@
-.project-page {
-  width: 98%;
-  margin: 1rem auto;
+.project-page-wrapper {
+  padding-top: 1.5rem;
+}
+
+.layout-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px solid black;
   position: relative;
+  height: auto;
+}
+
+.empty-space {
+  width: 25%;
+  border-right: 1.5px solid black;
+  position: relative;
+}
+
+.binder-container {
+  width: 75%;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
-  overflow-y: auto;
+  height: auto;
 }
 
-.project-name-container {
+.tabs-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 5rem auto;
+  justify-content: flex-start;
+  position: relative;
+  padding-top: 1rem;
+  padding-right: 2rem;
   width: 100%;
+  align-items: flex-end;
 }
 
-.project-name {
+.tab {
+  position: relative;
+  width: 13rem;
+  height: auto;
+  cursor: pointer;
+  margin-right: -1.2rem;
+  bottom: 0;
+}
+
+.tab:nth-child(1) {
+  z-index: 3;
+}
+
+.tab:nth-child(2) {
+  z-index: 5;
+}
+
+.tab:nth-child(3) {
+  z-index: 4;
+}
+
+.tab.active {
+  z-index: 11;
+}
+
+.tab-svg {
+  width: 110%;
+  height: auto;
+}
+
+.tab-title {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+  font-family: "Sohne Breit Dreiviertelfett";
+  font-size: 0.9rem;
   text-transform: uppercase;
-  overflow: hidden;
-  display: inline-block;
-  text-align: center;
+  pointer-events: none;
+  text-align: left;
 }
 
-.intro-sections-wrapper {
-  width: 95%;
-  margin: 0 auto 2rem auto;
-  display: flex;
-}
-
-.right-section,
-.left-section {
-  width: 50%;
-}
-
-.project-info-text {
-  width: 90%;
-}
-
-.paragraph-text {
-  margin: 0.5rem 0rem 0.5rem 0.5rem;
-}
-
-.tags-container,
-.project-info-container {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 1rem;
-}
-
-.type-tag,
-.project-info-title,
-.demo-tag {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0rem 1.5rem 1rem 0;
-  padding: 0.2rem;
-
-  border-radius: 1.5rem;
-
-  white-space: nowrap;
-  text-align: center;
-  width: 16vw;
-}
-
-.type-tag,
-.project-info-title,
-.demo-tag {
-  border: 2px solid black;
-  box-shadow: -3px 4px 0px black;
-}
-.demo-tag {
-  color: #fffff4;
+.line-h-menu {
+  z-index: 10;
   background-color: black;
-  border: 2px solid black;
-  box-shadow: -3px 4px 0px black;
-}
-.details-wrapper {
-  margin-top: 0.5rem;
-  width: 80%;
-  margin-left: 1rem;
-  justify-content: flex-start;
-}
-
-.details {
-  width: 70%;
-}
-
-.navigation-buttons {
-  display: flex;
   width: 100%;
-  margin: 2rem auto;
-  justify-content: space-between;
-  padding: 1rem;
-  align-items: center;
+  height: 1.5px;
+  position: absolute;
+  bottom: 5.4px;
+  left: 0;
 }
 
-.nav-button {
-  padding: 0.2rem 1.5rem;
-  border: 2px solid black;
-  border-radius: 1.5rem;
-  box-shadow: -3px 4px 0px black;
-}
-.cover-video-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 2rem auto;
-  position: relative;
-  border-radius: 0.5rem;
-  overflow: hidden;
+.tab-content {
+  border-top: none;
+  display: block;
   height: auto;
-  max-width: 92vw;
-}
-.video-wrapper {
-  margin: 2rem auto;
-  position: relative;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  max-width: 80%;
-}
-
-.video-wrapper-70w {
-  margin: 2rem auto;
-  position: relative;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  max-width: 70%;
-}
-
-.project-video {
   width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 0.5rem;
-}
-.video-wrapper-portrait {
-  margin: 4rem auto;
+  margin-top: -5px;
+  padding: 0;
   position: relative;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  width: 24%;
-  object-fit: cover;
-}
-
-.cover-img-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem auto;
-  position: relative;
-  overflow: hidden;
-  max-width: 100%;
-  height: auto;
-}
-
-.photo-wrapper-80 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem auto;
-  position: relative;
-  overflow: hidden;
-  height: auto;
-  max-width: 80%;
-}
-.img-project {
-  object-fit: cover;
-  width: 100%;
-  height: auto;
-}
-.photo-section-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem auto;
-  position: relative;
-  overflow: hidden;
-  height: auto;
-  max-width: 100%;
-}
-
-.img-project-half {
-  object-fit: cover;
-  width: 50%;
-  height: auto;
-  margin-bottom: 1rem;
+  z-index: 1;
 }

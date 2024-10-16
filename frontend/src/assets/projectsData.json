@@ -16,7 +16,7 @@
     "coverProject": [
       {
         "type": "video",
-        "src": "/tomato_social_video.mov"
+        "src": "/tomato_social_video.mp4"
       }
     ],
     "demo": ["https://tomato-social-frontend.onrender.com/"]
@@ -39,7 +39,7 @@
         "src": "/wallet_app_demo.mp4"
       }
     ],
-    "demo": ["https://tomato-social-frontend.onrender.com/"]
+    "demo": [""]
   },
   {
     "id": "pour-decisions",

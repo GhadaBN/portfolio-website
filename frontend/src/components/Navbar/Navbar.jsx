@@ -4,7 +4,8 @@ import { assets } from "../../assets/assets";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [activeTab, seAtctiveTab] = useState("Home");
+  const [activeTab, setActiveTab] = useState("Home");
+
   return (
     <div className="navbar">
       <div className="logo-container">
@@ -44,7 +45,7 @@ const Navbar = () => {
               className={
                 activeTab === "WebDev" ? "nav-link active" : "nav-link"
               }
-              onClick={() => setActiveTab("WebDeb")}
+              onClick={() => setActiveTab("WebDev")}
             >
               WEB DEVELOPMENT
             </Link>
@@ -61,12 +62,22 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-link-container">
-            <Link to="/about" className="nav-link-about">
+            <Link
+              to="/about"
+              className={activeTab === "About" ? "nav-link active" : "nav-link"}
+              onClick={() => setActiveTab("About")}
+            >
               ABOUT
             </Link>
           </li>
           <li className="nav-link-container">
-            <Link to="/about" className="nav-link-about">
+            <Link
+              to="/contact"
+              className={
+                activeTab === "Contact" ? "nav-link active" : "nav-link"
+              }
+              onClick={() => setActiveTab("Contact")}
+            >
               CONTACT
             </Link>
           </li>

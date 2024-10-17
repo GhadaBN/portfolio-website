@@ -7,6 +7,7 @@ import WebDev from "./pages/ProjectsCategory/WebDev";
 import DesignDirection from "./pages/ProjectsCategory/DesignDirection";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Project from "./pages/ProjectPage/Project";
+import Contact from "./pages/Contact/Contact";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/webdev" element={<WebDev />} />
         <Route path="/designdirection" element={<DesignDirection />} />
         <Route path="/project/:projectId" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>

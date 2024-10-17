@@ -49,7 +49,13 @@ const Navbar = () => {
             >
               WEB DEVELOPMENT
             </Link>
+            <div
+              className={`circle-navbar ${
+                activeTab === "WebDev" ? "active-circle" : ""
+              }`}
+            ></div>
           </li>
+
           <li className="nav-link-container">
             <Link
               to="/designdirection"
@@ -60,7 +66,13 @@ const Navbar = () => {
             >
               DESIGN/DIRECTION
             </Link>
+            <div
+              className={`circle-navbar ${
+                activeTab === "Design" ? "active-circle" : ""
+              }`}
+            ></div>
           </li>
+
           <li className="nav-link-container">
             <Link
               to="/about"
@@ -69,7 +81,13 @@ const Navbar = () => {
             >
               ABOUT
             </Link>
+            <div
+              className={`circle-navbar ${
+                activeTab === "About" ? "active-circle" : ""
+              }`}
+            ></div>
           </li>
+
           <li className="nav-link-container">
             <Link
               to="/contact"
@@ -80,6 +98,11 @@ const Navbar = () => {
             >
               CONTACT
             </Link>
+            <div
+              className={`circle-navbar ${
+                activeTab === "Contact" ? "active-circle" : ""
+              }`}
+            ></div>
           </li>
         </ul>
       </div>

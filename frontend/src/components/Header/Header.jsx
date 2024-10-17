@@ -39,7 +39,6 @@ const Header = () => {
               </Link>
               <div className="hover-content">
                 <p>Hello, I am Ghada</p>
-                {/* <img src="about.jpg" alt="About" className="hover-image" /> */}
               </div>
             </li>
           </ul>

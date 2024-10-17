@@ -20,6 +20,7 @@ import a_icon from "./a_letter_icon.png";
 import hand_peace from "./Hand_peace.svg";
 import yellow_shape from "./yellow_shape.png";
 import tab_shape from "./tab_shape.svg";
+import phone from "./phone.png";
 export const assets = {
   hot_sticker,
   pour_decisions_icon,
@@ -43,4 +44,5 @@ export const assets = {
   hand_peace,
   yellow_shape,
   tab_shape,
+  phone,
 };

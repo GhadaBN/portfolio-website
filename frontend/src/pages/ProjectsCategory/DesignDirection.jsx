@@ -69,7 +69,7 @@ const DesignDirection = () => {
             <li>
               <Link to="/project/tinder">
                 <span className="title-project">TINDER</span>
-                <img src={assets.love_message_icon} className="love-message" />
+                <img src={assets.heart_wings_icon} className="love-message" />
               </Link>
             </li>
           </ul>

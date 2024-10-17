@@ -5,14 +5,14 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-links-container">
-        <a
+        {/* <a
           href="https://github.com/GhadaBN"
           target="_blank"
           rel="noreferrer"
           className="footer-link"
         >
           GitHub
-        </a>
+        </a> */}
       </div>
       <div className="circle-container">
         <div className="circle-1"></div>

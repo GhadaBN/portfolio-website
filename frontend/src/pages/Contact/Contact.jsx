@@ -1,14 +1,22 @@
 import React from "react";
 import "./Contact.css";
-import { assets } from "../../assets/assets";
 import { FiArrowUpRight } from "react-icons/fi";
 
 const Contact = () => {
+  const obfuscateEmail = () => {
+    const email = "contact.ghadabennasr[at]gmail[dot]com"
+      .replace("[at]", "@")
+      .replace("[dot]", ".");
+    window.location.href = `mailto:${email}`;
+  };
+
   return (
     <div>
       <div className="contact-page">
         <div className="text-contact-wrapper">
-          <span className="text-contact">Let's Connect</span>
+          <span className="text-contact">
+            Let<span className="comma">'</span>s Connect
+          </span>
         </div>
         <div className="contact-links">
           <div className="contact-row">
@@ -23,15 +31,14 @@ const Contact = () => {
             </a>
           </div>
           <div className="contact-row">
-            <a
-              href={""}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="accordion-title-wrapper demo-link"
+            <div
+              onClick={obfuscateEmail}
+              className="accordion-title-wrapper demo-link clickable" 
+              style={{ cursor: "pointer" }}
             >
               <p className="contact-title">EMAIL</p>
               <FiArrowUpRight className="demo-arrow" />{" "}
-            </a>
+            </div>
           </div>
           <div className="contact-row">
             <a

@@ -20,9 +20,16 @@
   font-weight: bold;
   margin: 0 -10px 0 -20px;
 }
+.text-links-wrapper {
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 
 .text-contact-wrapper {
-  height: 87vh;
+  height: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,12 +40,12 @@
   flex-direction: column;
   justify-content: flex-start;
   position: absolute;
-  top: 19%;
+  top: 20%;
   right: 13%;
   border: solid black 1.5px;
   width: 30vw;
   z-index: 30;
-  padding-bottom: 3rem;
+  padding-bottom: 3.1rem;
   background: linear-gradient(0deg, #fbfbf6 5%, #fa97d8 90%);
 }
 

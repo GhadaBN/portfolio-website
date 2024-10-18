@@ -19,40 +19,68 @@ const Project = () => {
   );
   const project = projectData[projectIndex];
 
-  // State to manage the active tab
-  const [activeTab, setActiveTab] = useState("cover");
+  // State to manage multiple expanded sections
+  const [expandedSections, setExpandedSections] = useState([]);
 
-  const renderContent = () => {
-    if (activeTab === "cover" && project.coverProject) {
-      return <CoverProject coverProject={project.coverProject} />;
+  const toggleSection = (section) => {
+    setExpandedSections((prevSections) =>
+      prevSections.includes(section)
+        ? prevSections.filter((sec) => sec !== section)
+        : [...prevSections, section]
+    );
+  };
+
+  const titleBackgrounds = [
+    "#fbfbf6", // First section title solid color
+    "#eae4d3", // Second section title solid color
+    "#fa97d8", // Third section title solid color
+    "#a0a0a0", // Fourth section title solid color
+  ];
+
+  const sectionBackgrounds = [
+    "#fbfbf6",
+    "#eae4d3", // Second section gradient end color
+    "#fa97d8", // Third section gradient end color
+    "#a0a0a0", // Fourth section gradient end color
+  ];
+
+  // Define a mapping between section names and project data keys
+  const sections = [
+    { dataKey: "coverProject", defaultTitle: "Overview" },
+    { dataKey: "caseVideo", defaultTitle: "Video" },
+    { dataKey: "videoPortrait", defaultTitle: "Portrait" },
+    { dataKey: "demoVideo", defaultTitle: "Demo Video" },
+    { dataKey: "imageSection01", defaultTitle: "Image 1" },
+    { dataKey: "imageSection02", defaultTitle: "Image 2" },
+  ];
+
+  // Filter out sections where project data does not exist
+  const validSections = sections.filter(
+    (section) => project[section.dataKey] !== undefined
+  );
+
+  const renderContent = (section) => {
+    switch (section) {
+      case "Overview":
+        return <CoverProject coverProject={project.coverProject} />;
+      case "Video":
+        return (
+          <CaseVideo
+            caseVideo={project.caseVideo}
+            description2={project.description2}
+          />
+        );
+      case "Portrait":
+        return <VideoPortrait videoPortrait={project.videoPortrait} />;
+      case "Demo Video":
+        return <DemoVideo demoVideo={project.demoVideo} />;
+      case "Image 1":
+        return <ImageSection01 imageSection01={project.imageSection01} />;
+      case "Image 2":
+        return <ImageSection02 imageSection02={project.imageSection02} />;
+      default:
+        return null;
     }
-
-    if (activeTab === "video" && project.caseVideo) {
-      return (
-        <CaseVideo
-          caseVideo={project.caseVideo}
-          description2={project.description2}
-        />
-      );
-    }
-
-    if (activeTab === "portrait" && project.videoPortrait) {
-      return <VideoPortrait videoPortrait={project.videoPortrait} />;
-    }
-
-    if (activeTab === "demo-vid" && project.demoVideo) {
-      return <DemoVideo demoVideo={project.demoVideo} />;
-    }
-
-    if (activeTab === "image-01" && project.imageSection01) {
-      return <ImageSection01 imageSection01={project.imageSection01} />;
-    }
-
-    if (activeTab === "image-02" && project.imageSection02) {
-      return <ImageSection02 imageSection02={project.imageSection02} />;
-    }
-
-    return null;
   };
 
   return (
@@ -78,104 +106,37 @@ const Project = () => {
         />
       )}
 
-      <div className="layout-container">
-        <div className="empty-space"></div>
-        <div className="binder-container">
-          <div className="tabs-container">
-            {project.coverProject && (
+      <div className="sections-container">
+        {validSections.map((section, index) => (
+          <div
+            key={section.dataKey}
+            className={`accordion-section clickable ${
+              expandedSections.includes(section.dataKey) ? "expanded" : ""
+            }`}
+            onClick={() => toggleSection(section.dataKey)}
+          >
+            <div
+              className="section-title"
+              style={{
+                backgroundColor: titleBackgrounds[index] || "#fbfbf6",
+              }}
+            >
+              {index + 1}. {section.defaultTitle || ""}{" "}
+            </div>
+            {expandedSections.includes(section.dataKey) && (
               <div
-                className={`tab ${activeTab === "cover" ? "active" : ""}`}
-                onClick={() => setActiveTab("cover")}
-                style={{ zIndex: activeTab === "cover" ? 20 : 6 }}
+                className="section-content"
+                style={{
+                  background: `linear-gradient(0deg, ${
+                    titleBackgrounds[index]
+                  } 0%, ${sectionBackgrounds[index] || "#eae4d3"} 100%)`,
+                }}
               >
-                <img
-                  src={assets.tab_shape}
-                  alt="Binder Tab"
-                  className="tab-svg"
-                />
-                <span className="tab-title">Overview</span>
-              </div>
-            )}
-            <div className="line-h-menu"></div>
-
-            {project.caseVideo && (
-              <div
-                className={`tab ${activeTab === "video" ? "active" : ""}`}
-                onClick={() => setActiveTab("video")}
-                style={{ zIndex: activeTab === "video" ? 20 : 5 }}
-              >
-                <img
-                  src={assets.tab_shape}
-                  alt="Binder Tab"
-                  className="tab-svg"
-                />
-                <span className="tab-title">Case Film</span>
-              </div>
-            )}
-
-            {project.videoPortrait && (
-              <div
-                className={`tab ${activeTab === "portrait" ? "active" : ""}`}
-                onClick={() => setActiveTab("portrait")}
-                style={{ zIndex: activeTab === "portrait" ? 20 : 4 }}
-              >
-                <img
-                  src={assets.tab_shape}
-                  alt="Binder Tab"
-                  className="tab-svg"
-                />
-                <span className="tab-title">Teasers</span>
-              </div>
-            )}
-
-            {project.demoVideo && (
-              <div
-                className={`tab ${activeTab === "demo-vid" ? "active" : ""}`}
-                onClick={() => setActiveTab("demo-vid")}
-                style={{ zIndex: activeTab === "demo-vid" ? 20 : 3 }}
-              >
-                <img
-                  src={assets.tab_shape}
-                  alt="Binder Tab"
-                  className="tab-svg"
-                />
-                <span className="tab-title">Video</span>
-              </div>
-            )}
-
-            {project.imageSection01 && (
-              <div
-                className={`tab ${activeTab === "image-01" ? "active" : ""}`}
-                onClick={() => setActiveTab("image-01")}
-                style={{ zIndex: activeTab === "image-01" ? 20 : 2 }}
-              >
-                <img
-                  src={assets.tab_shape}
-                  alt="Binder Tab"
-                  className="tab-svg"
-                />
-                <span className="tab-title">Print</span>
-              </div>
-            )}
-
-            {project.imageSection02 && (
-              <div
-                className={`tab ${activeTab === "image-02" ? "active" : ""}`}
-                onClick={() => setActiveTab("image-02")}
-                style={{ zIndex: activeTab === "image-02" ? 20 : 1 }}
-              >
-                <img
-                  src={assets.tab_shape}
-                  alt="Binder Tab"
-                  className="tab-svg"
-                />
-                <span className="tab-title">Print</span>
+                {renderContent(section.defaultTitle)}
               </div>
             )}
           </div>
-
-          <div className="tab-content">{renderContent()}</div>
-        </div>
+        ))}
       </div>
     </div>
   );

@@ -124,14 +124,7 @@ const Project = () => {
               {index + 1}. {section.defaultTitle || ""}{" "}
             </div>
             {expandedSections.includes(section.dataKey) && (
-              <div
-                className="section-content"
-                style={{
-                  background: `linear-gradient(0deg, ${
-                    titleBackgrounds[index]
-                  } 0%, ${sectionBackgrounds[index] || "#eae4d3"} 100%)`,
-                }}
-              >
+              <div className="section-content">
                 {renderContent(section.defaultTitle)}
               </div>
             )}

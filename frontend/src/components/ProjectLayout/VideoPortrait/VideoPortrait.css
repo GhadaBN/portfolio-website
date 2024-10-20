@@ -1,9 +1,6 @@
 .section-portrait {
   width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
-  background: linear-gradient(0deg, #eae4d3 5%, #fbfbf6 99%);
-
+  height: 70vh;
   position: relative;
 }
 

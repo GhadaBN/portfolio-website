@@ -28,7 +28,7 @@ const Project = () => {
     );
   };
 
-  const titleBackgrounds = ["#fbfbf6", "#eae4d3", "#fa97d8", "#a0a0a0"];
+  const titleBackgrounds = ["#eae4d3", "#fbfbf6", "#fa97d8", "#a0a0a0"];
 
   // Define a mapping between section names and project data keys
   const sections = [
@@ -89,7 +89,6 @@ const Project = () => {
         />
       )}
 
-      {/* Always render the CoverProject as the first expanded section */}
       <div className="cover-section">
         <CoverProject coverProject={project.coverProject} />
       </div>
@@ -102,7 +101,6 @@ const Project = () => {
               expandedSection === section.dataKey ? "expanded" : ""
             }`}
           >
-            
             <div
               className="section-title"
               onClick={() => toggleSection(section.dataKey)}
@@ -111,7 +109,6 @@ const Project = () => {
               }}
             >
               {index + 2}. {section.defaultTitle || ""}{" "}
-              
             </div>
             {expandedSection === section.dataKey && (
               <div className="section-content">

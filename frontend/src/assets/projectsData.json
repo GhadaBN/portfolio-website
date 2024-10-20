@@ -208,9 +208,7 @@
         "src": "/gorillas_eoy_cover.png"
       }
     ],
-    "caseVideo": [
-      "https://www.dropbox.com/scl/fi/abp6jg8sd5inydew6y875/gorillas_eoy_case.mp4?rlkey=qe6cu1ghbed2haoyblo0gj0bm&st=cfxp0xjp&raw=1"
-    ]
+    "caseVideo": ["/gorillas_eoy_ad.mp4"]
   },
   {
     "id": "bmw",

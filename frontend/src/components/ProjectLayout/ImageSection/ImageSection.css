@@ -1,0 +1,17 @@
+.section-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+.image-section {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  object-fit: cover;
+  display: block;
+  margin-top: 0;
+  padding: 0;
+  overflow: hidden;
+}

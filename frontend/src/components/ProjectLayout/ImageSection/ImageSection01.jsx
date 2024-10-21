@@ -4,8 +4,8 @@ const ImageSection01 = ({ imageSection01 }) => {
   return (
     <div className="section-wrapper">
       {imageSection01?.map((image, index) => (
-        <div key={index} className="cover-item">
-          <img src={image} alt="Cover" className="cover-project-img" />
+        <div key={index} className="">
+          <img src={image} alt="Cover" className="image-section" />
         </div>
       ))}
     </div>

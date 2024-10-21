@@ -68,7 +68,7 @@ input[type="button"],
 }
 
 div.clickable {
-  cursor: url("/cursor-pointer.svg"), pointer !important; 
+  cursor: url("/cursor-pointer.svg"), pointer !important;
 }
 
 .app {
@@ -90,11 +90,11 @@ li {
   list-style: none;
 }
 
-p {
+/* p {
   font-family: "DMSans";
   font-size: 0.9rem;
   line-height: 1.4;
-}
+} */
 
 h1 {
   font-family: "Sohne Breit Dreiviertelfett";

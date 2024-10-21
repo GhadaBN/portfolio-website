@@ -35,8 +35,8 @@ const Project = () => {
     { dataKey: "caseVideo", defaultTitle: "Campaign Ad" },
     { dataKey: "videoPortrait", defaultTitle: "Digital" },
     { dataKey: "demoVideo", defaultTitle: "Demo Video" },
-    { dataKey: "imageSection01", defaultTitle: "Image 1" },
-    { dataKey: "imageSection02", defaultTitle: "Image 2" },
+    { dataKey: "imageSection01", defaultTitle: null },
+    { dataKey: "imageSection02", defaultTitle: null },
   ];
 
   // Filter out sections where project data does not exist
@@ -44,22 +44,22 @@ const Project = () => {
     (section) => project[section.dataKey] !== undefined
   );
 
-  const renderContent = (section) => {
-    switch (section) {
-      case "Campaign Ad":
+  const renderContent = (sectionKey) => {
+    switch (sectionKey) {
+      case "caseVideo":
         return (
           <CaseVideo
             caseVideo={project.caseVideo}
             description2={project.description2}
           />
         );
-      case "Digital":
+      case "videoPortrait":
         return <VideoPortrait videoPortrait={project.videoPortrait} />;
-      case "Demo Video":
+      case "demoVideo":
         return <DemoVideo demoVideo={project.demoVideo} />;
-      case "Image 1":
+      case "imageSection01":
         return <ImageSection01 imageSection01={project.imageSection01} />;
-      case "Image 2":
+      case "imageSection02":
         return <ImageSection02 imageSection02={project.imageSection02} />;
       default:
         return null;
@@ -112,7 +112,7 @@ const Project = () => {
             </div>
             {expandedSection === section.dataKey && (
               <div className="section-content">
-                {renderContent(section.defaultTitle)}
+                {renderContent(section.dataKey)}
               </div>
             )}
           </div>

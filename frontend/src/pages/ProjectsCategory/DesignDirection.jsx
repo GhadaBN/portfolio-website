@@ -11,7 +11,6 @@ const DesignDirection = () => {
             <li>
               <Link to="/project/gorillas-red-cabbage">
                 <span className="title-project">GORILLAS ROTKOHL</span>
-                <img src={assets.gorillas_icon} className="thumbnail" />
               </Link>
             </li>
           </ul>
@@ -20,7 +19,8 @@ const DesignDirection = () => {
           <ul>
             <li>
               <Link to="/project/adidas">
-                <span className="title-project">ADIDAS UNIFORIA SS20</span>
+                <span className="title-project">ADIDAS UNIFORIA</span>
+                <img src={assets.football_icon} className="icon" />
               </Link>
             </li>
           </ul>
@@ -30,12 +30,12 @@ const DesignDirection = () => {
             <li>
               <Link to="/project/gorillas-eoy">
                 <span className="title-project">GORILLAS EOY</span>
-                <img src={assets.banana_icon} className="icon" />
+                <img src={assets.gorillas_icon} className="thumbnail" />
               </Link>
             </li>
           </ul>
         </div>
-        <div id="line-4" className="line">
+        {/* <div id="line-4" className="line">
           <ul className="">
             <li>
               <Link to="/project/bundesliga">
@@ -44,9 +44,9 @@ const DesignDirection = () => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
 
-        {/* <div id="line-5" className="line">
+        <div id="line-5" className="line">
           <ul className="">
             <li>
               <Link to="/project/bmw">
@@ -56,16 +56,9 @@ const DesignDirection = () => {
               </Link>
             </li>
           </ul>
-        </div> */}
+        </div>
         <div id="line-5" className="line">
           <ul className="">
-            {/* <li>
-              <Link to="/project/bmw">
-                <img src={assets.spiral_icon} className="spiral-icon" />
-                <span className="title-project">BMW</span>
-                <img src={assets.bmw_icon} className="thumbnail" />
-              </Link>
-            </li> */}
             <li>
               <Link to="/project/tinder">
                 <span className="title-project">TINDER</span>

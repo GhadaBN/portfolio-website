@@ -63,7 +63,6 @@ const HeaderDesign = ({
               </div>
             )}
 
-            {/* Render "Agency" section only if agency exists */}
             {agency && (
               <div className="accordion-row">
                 <div
@@ -89,7 +88,6 @@ const HeaderDesign = ({
               </div>
             )}
 
-            {/* Render "Awards" section only if awards exist */}
             {awards && awards.length > 0 && (
               <div className="accordion-row">
                 <div
@@ -119,7 +117,6 @@ const HeaderDesign = ({
               </div>
             )}
 
-            {/* Render "Team" section only if team exists */}
             {team && team.length > 0 && (
               <div className="accordion-row">
                 <div
@@ -153,7 +150,6 @@ const HeaderDesign = ({
           </div>
         </div>
 
-        {/* Render description only if it exists */}
         {description && (
           <div className="details-right">
             <p className="project-info-title">Project Info</p>

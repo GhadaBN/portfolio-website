@@ -14,7 +14,7 @@
 
 .title-project {
   font-family: "Sohne Breit Dreiviertelfett";
-  font-size: 6.7vw;
+  font-size: 7.5vw;
   line-height: 1;
   color: black;
 }
@@ -27,52 +27,54 @@
 }
 
 .line li {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  vertical-align: middle;
+  display: block;
 }
 
 .line li a {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  flex-wrap: wrap;
   text-align: left;
 }
 
-.line li img {
+.line li a span {
   display: inline-block;
-  width: auto;
+}
+
+.line li a img {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #line-1 .hot_sticker {
-  height: 5.5vw;
-  margin: 0 2.5px 0 5px;
+  height: 6.5vw;
+  margin: 0 10px;
 }
 .spiral-icon {
-  height: 3.2vw;
-  margin-right: 8px;
+  height: 3.4vw;
+  margin-right: 10px;
 }
 .love-message {
-  height: 4.8vw;
-  margin: 0 8px;
+  height: 5.2vw;
+  margin: 0 10px;
 }
 
 .icon {
-  height: 4.2vw;
-  margin: 0 8px 0 8px;
+  height: 5.2vw;
+  margin: 0 10px;
 }
 
 .icon-start {
-  height: 4.2vw;
+  height: 5vw;
   margin-right: 8px;
 }
 .icon-letter {
-  height: 5.1vw;
-  margin-left: 20px;
+  height: 6vw;
+  margin: 0;
 }
 .thumbnail {
-  height: 5.3vw;
-  margin: 0 8px 0 8px;
+  height: 6.2vw;
+  margin: 0 15px;
 }
 #line-1 {
   display: flex;

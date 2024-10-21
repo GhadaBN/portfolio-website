@@ -10,9 +10,9 @@ const WebDev = () => {
           <ul className="">
             <li>
               <Link to="/project/wallet-app">
-                <span className="title-project">MOBILE WALLET</span>
+                <span className="title-project">MOBILE W</span>
                 <img src={assets.a_icon} className="icon-letter" />
-                <span className="title-project">PP</span>
+                <span className="title-project">LLET</span>
               </Link>
             </li>
           </ul>
@@ -21,7 +21,7 @@ const WebDev = () => {
           <ul className="">
             <li>
               <Link to="/project/tomato-social-club">
-                <span className="title-project">TOMATO SOCIAL</span>
+                <span className="title-project">TOMATO</span>
                 <img src={assets.hot_sticker} className="hot_sticker" />
                 <span className="title-project">CLUB</span>
               </Link>

@@ -28,7 +28,7 @@ const Project = () => {
     );
   };
 
-  const titleBackgrounds = ["#eae4d3", "#fbfbf6", "#fa97d8", "#a0a0a0"];
+  const titleBackgrounds = ["#eae4d3", "#a0a0a0"];
 
   // Define a mapping between section names and project data keys
   const sections = [

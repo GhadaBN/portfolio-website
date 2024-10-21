@@ -23,7 +23,7 @@ const WebDev = () => {
               <Link to="/project/tomato-social-club">
                 <span className="title-project">TOMATO</span>
                 <img src={assets.hot_sticker} className="hot_sticker" />
-                <span className="title-project">CLUB</span>
+                <span className="title-project">SOCIAL</span>
               </Link>
             </li>
           </ul>

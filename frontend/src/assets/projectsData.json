@@ -208,7 +208,8 @@
         "src": "/gorillas_eoy_cover.png"
       }
     ],
-    "caseVideo": ["/gorillas_eoy_ad.mp4"]
+    "caseVideo": ["/gorillas_eoy_ad.mp4"],
+    "imageSection01": ["/gorillas_eoy_1.png"]
   },
   {
     "id": "bmw",

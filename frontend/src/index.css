@@ -24,17 +24,12 @@
   src: url("../src/assets/SohneBreit-Leicht.otf");
 }
 
-@font-face {
-  font-family: "DMSans";
-  font-style: normal;
-  src: url("../src/assets/DMSans-VariableFont_opsz\,wght.ttf")
-    format("opentype");
-}
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: outfit;
 }
 html,
 body {

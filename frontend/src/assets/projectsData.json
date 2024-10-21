@@ -215,12 +215,27 @@
     "id": "bmw",
     "title": "BMW",
     "type": ["Art Direction"],
-    "role": "Role: Art Direction, Digital campaign German and French Market",
     "agency": "Mediamonks",
     "description": [
       "Our campaign for the 2 Series Active Tourer is a testament to adaptability, mirroring the versatility of life itself. With a plug-and-play production approach, we created a multitude of adaptations, each tailored to different markets, target audiences, and customer journey stages.",
       "Despite it being a product launch campaign, we didn’t focus only on technical features but on what they can do for you. With many small stories, all coming from A TOUR CALLED LIFE."
-    ]
+    ],
+    "client": "BMW",
+    "team": [
+      "ECD: Marc Isken",
+      "Sr Creative: Ole Nagatis",
+      "Sr Creative: Dennis Engel",
+      "AD: Ghada Bennasr",
+      "AD: Rachel Fleisher",
+      "CW: Smriti Rana"
+    ],
+    "coverProject": [
+      {
+        "type": "image",
+        "src": "/bmw_cover.png"
+      }
+    ],
+    "videoPortrait": ["/bmw_gif_1.gif", "/bmw_gif_2.gif"]
   },
   {
     "id": "tinder",

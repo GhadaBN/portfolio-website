@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
 :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,13 +26,12 @@
   src: url("../src/assets/SohneBreit-Leicht.otf");
 }
 
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 html,
 body {
   display: flex;

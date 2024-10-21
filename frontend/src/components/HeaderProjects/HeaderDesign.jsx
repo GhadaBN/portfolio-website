@@ -159,7 +159,7 @@ const HeaderDesign = ({
             <p className="project-info-title">Project Info</p>
             <div className="description-text">
               {description.map((desc, index) => (
-                <p key={index} className="paragraph-text">
+                <p key={index} className="paragraph-text-header">
                   {desc}
                 </p>
               ))}

@@ -69,7 +69,7 @@ const HeaderWeb = ({ title, type, description, demo, technology }) => {
           <p className="project-info-title">Project Info</p>
           <div className="description-text">
             {description.map((description, index) => (
-              <p key={index} className="paragraph-text">
+              <p key={index} className="paragraph-text-header">
                 {description}
               </p>
             ))}

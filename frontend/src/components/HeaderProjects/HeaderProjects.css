@@ -63,7 +63,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
-  /* padding-bottom: 2.7rem; */
 }
 
 .details-right {
@@ -81,7 +80,11 @@
   width: 98%;
   padding: 0.5rem 1rem 1rem 1rem;
 }
-
+.paragraph-text {
+  font-family: "DMSans";
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
 /* ------------- Accordion Section ------------- */
 
 .accordion {
@@ -103,7 +106,7 @@
 
 .accordion-title,
 .project-info-title {
-  font-family: "Sohne Breit halbfett";
+  font-family: "Sohne Breit Dreiviertelfett";
   font-size: 1.3rem;
   text-transform: uppercase;
 }

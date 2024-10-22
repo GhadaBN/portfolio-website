@@ -28,10 +28,11 @@ const Project = () => {
     );
   };
 
-  const titleBackgrounds = ["#eae4d3", "#a0a0a0"];
+  const titleBackgrounds = ["#fbfbf6", "#eae4d3", "#fb84c7", "#a0a0a0"];
 
   // Define a mapping between section names and project data keys
   const sections = [
+    { dataKey: "coverProject", defaultTitle: "Overview" },
     { dataKey: "caseVideo", defaultTitle: "Campaign Ad" },
     { dataKey: "videoPortrait", defaultTitle: "Digital" },
     { dataKey: "demoVideo", defaultTitle: "Demo Video" },
@@ -46,6 +47,8 @@ const Project = () => {
 
   const renderContent = (sectionKey) => {
     switch (sectionKey) {
+      case "coverProject":
+        return <CoverProject coverProject={project.coverProject} />;
       case "caseVideo":
         return (
           <CaseVideo
@@ -89,10 +92,6 @@ const Project = () => {
         />
       )}
 
-      <div className="cover-section">
-        <CoverProject coverProject={project.coverProject} />
-      </div>
-
       <div className="sections-container">
         {validSections.map((section, index) => (
           <div
@@ -108,7 +107,7 @@ const Project = () => {
                 backgroundColor: titleBackgrounds[index] || "#fbfbf6",
               }}
             >
-              {index + 2}. {section.defaultTitle || ""}{" "}
+              {index + 1}. {section.defaultTitle || ""}{" "}
             </div>
             {expandedSection === section.dataKey && (
               <div className="section-content">

@@ -5,7 +5,6 @@ import { FiArrowUpRight, FiPlus, FiMinus } from "react-icons/fi";
 const HeaderWeb = ({ title, type, description, demo, technology }) => {
   const [openAccordion, setOpenAccordion] = useState(null);
 
-  // Toggle Accordion Function
   const toggleAccordion = (index) => {
     setOpenAccordion(openAccordion === index ? null : index);
   };
@@ -55,17 +54,19 @@ const HeaderWeb = ({ title, type, description, demo, technology }) => {
           </div>
         </div>
         <div className="details-right">
-          <div className="accordion-row">
-            <a
-              href={demo}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="accordion-title-wrapper demo-link"
-            >
-              <p className="accordion-title">Demo Website</p>
-              <FiArrowUpRight className="demo-arrow" />{" "}
-            </a>
-          </div>
+          {demo && (
+            <div className="accordion-row">
+              <a
+                href={demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="accordion-title-wrapper demo-link"
+              >
+                <p className="accordion-title">Demo Website</p>
+                <FiArrowUpRight className="demo-arrow" />{" "}
+              </a>
+            </div>
+          )}
           <p className="project-info-title">Project Info</p>
           <div className="description-text">
             {description.map((description, index) => (

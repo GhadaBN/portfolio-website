@@ -22,8 +22,13 @@ const IntroText = () => {
             </div>
             <div className="line-about">
               <span className="text-about">
-                DEVELOPER FROM TUNISIA, BASED IN BERLIN.
+                DEVELOPER FROM TUNISIA, BASED IN BERLIN, Aiming
               </span>
+            </div>
+            <div className="line-about">
+              <span className="text-about">for</span>
+              <img src={assets.mars_icon} className="mars-icon" alt="Icon" />
+              <span className="text-about">.</span>
             </div>
           </div>
         </div>

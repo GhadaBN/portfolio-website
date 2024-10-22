@@ -56,12 +56,13 @@
 }
 .love-message {
   height: 5.2vw;
-  margin: 0 10px;
+  margin: 10px 10px 0 10px;
 }
 
 .icon {
-  height: 5.2vw;
+  height: 6vw;
   margin: 0 10px;
+  margin-bottom: 5px;
 }
 
 .icon-start {

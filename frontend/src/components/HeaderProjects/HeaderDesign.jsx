@@ -13,7 +13,6 @@ const HeaderDesign = ({
 }) => {
   const [openAccordion, setOpenAccordion] = useState(null);
 
-  // Toggle Accordion Function
   const toggleAccordion = (index) => {
     setOpenAccordion(openAccordion === index ? null : index);
   };

@@ -32,7 +32,7 @@ const Project = () => {
       if (sectionRefs.current[index]) {
         sectionRefs.current[index].scrollIntoView({
           behavior: "smooth",
-          block: "center", // Scroll the section to the center of the viewport
+          block: "center",
           inline: "nearest",
         });
       }

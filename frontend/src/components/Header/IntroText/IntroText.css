@@ -12,6 +12,12 @@
   display: inline-block;
   vertical-align: baseline;
 }
+.mars-icon {
+  height: 5rem;
+  margin: 0 20px;
+  display: inline-block;
+  vertical-align: baseline;
+}
 
 .line-about {
   width: 100%;

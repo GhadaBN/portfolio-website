@@ -43,7 +43,7 @@ const WebDev = () => {
             <li>
               <Link to="/project/dev-roast">
                 <span className="title-project">DEV ROAST</span>
-                <img src={assets.thunderbolt_icon} className="icon" />
+                <img src={assets.chicken_icon} className="icon" />
               </Link>
             </li>
           </ul>

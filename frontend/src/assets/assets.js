@@ -16,11 +16,13 @@ import hands_icon from "./hands_icon.png";
 import hand_spin_logo_webm from "./hand_spin_logo.webm";
 import hand_spin_logo_gif from "./hand_spin_logo.gif";
 import hand_static from "./hand_static.png";
-import a_icon from "./a_letter_icon.png";
+import a_icon from "./a_letter_icon.svg";
 import hand_peace from "./Hand_peace.svg";
-import yellow_shape from "./yellow_shape.png";
+import yellow_shape from "./yellow_shape.svg";
 import tab_shape from "./tab_shape.svg";
 import phone from "./phone.png";
+import chicken_icon from "./fried_chicken.webp";
+import mars_icon from "./mars.svg";
 export const assets = {
   hot_sticker,
   pour_decisions_icon,
@@ -45,4 +47,6 @@ export const assets = {
   yellow_shape,
   tab_shape,
   phone,
+  chicken_icon,
+  mars_icon,
 };

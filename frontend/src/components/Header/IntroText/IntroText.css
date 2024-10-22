@@ -8,7 +8,13 @@
 
 .icon-intro-text {
   height: 5rem;
-  margin: 0 8px;
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: baseline;
+}
+.yellow-icon {
+  height: 5rem;
+  margin: 0 -10px;
   display: inline-block;
   vertical-align: baseline;
 }

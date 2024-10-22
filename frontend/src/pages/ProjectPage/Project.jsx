@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "./Project.css";
 import projectData from "../../assets/projectsData.json";
@@ -21,8 +21,25 @@ const Project = () => {
   // State to manage the currently expanded section
   const [expandedSection, setExpandedSection] = useState(null);
 
+  // Refs to scroll into view when a section expands
+  const sectionRefs = useRef([]);
+
+  useEffect(() => {
+    if (expandedSection !== null) {
+      const index = validSections.findIndex(
+        (section) => section.dataKey === expandedSection
+      );
+      if (sectionRefs.current[index]) {
+        sectionRefs.current[index].scrollIntoView({
+          behavior: "smooth",
+          block: "center", // Scroll the section to the center of the viewport
+          inline: "nearest",
+        });
+      }
+    }
+  }, [expandedSection]);
+
   const toggleSection = (section) => {
-    // If the clicked section is already expanded, close it; otherwise, expand the clicked section
     setExpandedSection((prevSection) =>
       prevSection === section ? null : section
     );
@@ -30,7 +47,6 @@ const Project = () => {
 
   const titleBackgrounds = ["#fbfbf6", "#eae4d3", "#fb84c7", "#a0a0a0"];
 
-  // Define a mapping between section names and project data keys
   const sections = [
     { dataKey: "coverProject", defaultTitle: "Overview" },
     { dataKey: "caseVideo", defaultTitle: "Campaign Ad" },
@@ -40,7 +56,6 @@ const Project = () => {
     { dataKey: "imageSection02", defaultTitle: null },
   ];
 
-  // Filter out sections where project data does not exist
   const validSections = sections.filter(
     (section) => project[section.dataKey] !== undefined
   );
@@ -99,6 +114,7 @@ const Project = () => {
             className={`accordion-section clickable ${
               expandedSection === section.dataKey ? "expanded" : ""
             }`}
+            ref={(el) => (sectionRefs.current[index] = el)}
           >
             <div
               className="section-title"

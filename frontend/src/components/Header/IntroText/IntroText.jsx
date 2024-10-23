@@ -9,28 +9,27 @@ const IntroText = () => {
         <div className="hero-frame-links">
           <div className="intro-text">
             <div className="line-about">
-              <span className="text-about">HELLO</span>
-              <img
-                src={assets.hand_peace}
-                className="icon-intro-text"
-                alt="Icon"
-              />
-              <span className="text-about"> I AM GHADA</span>
+              <span className="text-about"> DEVELOPER AND</span>
             </div>
             <div className="line-about">
-              <span className="text-about">A DESIGNER AND</span>
-            </div>
-            <div className="line-about">
-              <span className="text-about">DEVELOPER FR</span>
+              <span className="text-about">DESIGNER</span>
               <img
-                src={assets.yellow_shape}
-                className="yellow-icon"
+                src={assets.flower_pink}
+                className="flower-icon"
                 alt="Icon"
               />
+              <span className="text-about">BRIDGING </span>
+            </div>
+            <div className="line-about">
+              <span className="text-about">CREATIVITY AND</span>
+            </div>
+            <div className="line-about">
+              <span className="text-about">CODE. I AM FR</span>
+              <img src={assets.blue_shape} className="yellow-icon" alt="Icon" />
               <span className="text-about">M</span>
             </div>
             <div className="line-about">
-              <span className="text-about">TUNISIA BASED IN</span>
+              <span className="text-about">Tunisia, BASED IN</span>
             </div>
           </div>
           <div className="line-about">

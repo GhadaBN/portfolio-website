@@ -1,16 +1,19 @@
 .text-about {
   font-family: "Sohne Breit Dreiviertelfett";
-  font-size: 7.5vw;
-  line-height: 1;
+  font-size: 7.6vw;
+  line-height: 0.95;
   color: black;
   text-transform: uppercase;
 }
-
 .icon-intro-text {
   height: 5rem;
   margin: 0 10px;
   display: inline-block;
   vertical-align: baseline;
+}
+.flower-icon {
+  height: 5rem;
+  margin: 0 -10px;
 }
 .yellow-icon {
   height: 5rem;
@@ -19,7 +22,7 @@
   vertical-align: baseline;
 }
 .mars-icon {
-  height: 5rem;
+  height: 5.1rem;
   margin: 0 20px;
   display: inline-block;
   vertical-align: baseline;

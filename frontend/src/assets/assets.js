@@ -19,11 +19,17 @@ import hand_static from "./hand_static.png";
 import a_icon from "./a_letter_icon.svg";
 import hand_peace from "./Hand_peace.svg";
 import yellow_shape from "./yellow_shape.svg";
+import blue_shape from "./shape_blue.svg";
 import tab_shape from "./tab_shape.svg";
 import phone from "./phone.png";
 import chicken_icon from "./fried_chicken.webp";
 import mars_icon from "./mars.svg";
+import flower_blue from "./flower_blue.svg";
+import flower_pink from "./flower_pink.svg";
 export const assets = {
+  blue_shape,
+  flower_pink,
+  flower_blue,
   hot_sticker,
   pour_decisions_icon,
   heart_wings_icon,

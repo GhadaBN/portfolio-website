@@ -1,5 +1,6 @@
 .header-category {
   width: 100%;
+
   margin: 0;
   display: flex;
   align-items: center;
@@ -14,8 +15,8 @@
 
 .title-project {
   font-family: "Sohne Breit Dreiviertelfett";
-  font-size: 7.5vw;
-  line-height: 1;
+  font-size: 7.6vw;
+  line-height: 0.95;
   color: black;
 }
 

@@ -10,7 +10,13 @@ const DesignDirection = () => {
           <ul className="">
             <li>
               <Link to="/project/gorillas-red-cabbage">
-                <span className="title-project">GORILLAS ROTKOHL</span>
+                <span className="title-project">GORILLAS R</span>
+                <img
+                  src={assets.yellow_shape}
+                  className="yellow-icon"
+                  alt="Icon"
+                />
+                <span className="title-project">OTKOHL</span>
               </Link>
             </li>
           </ul>

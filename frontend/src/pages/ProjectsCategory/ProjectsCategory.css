@@ -72,7 +72,12 @@
 }
 .icon-letter {
   height: 5.8vw;
-  margin: 0;
+  margin: 0 -10px;
+}
+.chicken-icon {
+  height: 6.4vw;
+  margin: 0 10px;
+  margin-bottom: 5px;
 }
 .thumbnail {
   height: 6.2vw;

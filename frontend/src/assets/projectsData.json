@@ -19,7 +19,9 @@
         "src": "/tomato_social_video.mp4"
       }
     ],
-    "demo": ["https://tomato-social-frontend.onrender.com/"]
+    "demo": ["https://tomato-social-frontend.onrender.com/"],
+    "board01": ["/tomato_01.png", "/tomato_02.png"],
+    "board02": ["/tomato_02.png"]
   },
   {
     "id": "wallet-app",
@@ -183,8 +185,8 @@
       }
     ],
     "demoVideo": ["/adidas_video.mp4"],
-    "imageSection01": ["/adidas_2.png", "/adidas_4.png"],
-    "imageSection02": ["/adidas_1.png", "/adidas_3.png"]
+    "board01": ["/adidas_01.png"],
+    "board02": ["/adidas_02.png"]
   },
   {
     "id": "gorillas-eoy",
@@ -208,7 +210,7 @@
       }
     ],
     "caseVideo": ["/gorillas_eoy_ad.mp4"],
-    "imageSection01": ["/gorillas_eoy_1.png"]
+    "board01": ["/gorillas_eoy_1.png"]
   },
   {
     "id": "bmw",

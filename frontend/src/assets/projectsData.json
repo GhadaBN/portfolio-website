@@ -216,9 +216,9 @@
   },
   {
     "id": "bmw",
-    "title": "BMW",
+    "title": "BMW Active tourer 2",
     "type": ["Art Direction"],
-    "agency": "Mediamonks",
+    "agency": "Mediamonks Global, Mediamonks France",
     "description": [
       "Our campaign for the 2 Series Active Tourer is a testament to adaptability, mirroring the versatility of life itself. With a plug-and-play production approach, we created a multitude of adaptations, each tailored to different markets, target audiences, and customer journey stages.",
       "Despite it being a product launch campaign, we didn’t focus only on technical features but on what they can do for you. With many small stories, all coming from A TOUR CALLED LIFE."
@@ -232,13 +232,12 @@
       "AD: Rachel Fleisher",
       "CW: Smriti Rana"
     ],
-    "coverProject": [
-      {
-        "type": "video",
-        "src": "/bmw_at2.mp4"
-      }
-    ],
-    "board01": [{ "type": "video", "src": "/bmw_at2_board01.mp4" }]
+    "coverProject": [],
+    "board01": [
+      { "type": "image", "src": "/bmw_cover.png" },
+      { "type": "video", "src": "/bmw_at2_board01.mp4" },
+      { "type": "video", "src": "/bmw_at_board02.mp4" }
+    ]
   },
   {
     "id": "tinder",

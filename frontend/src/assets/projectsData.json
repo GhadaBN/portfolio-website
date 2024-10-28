@@ -20,8 +20,10 @@
       }
     ],
     "demo": ["https://tomato-social-frontend.onrender.com/"],
-    "board01": ["/tomato_01.png", "/tomato_02.png"],
-    "board02": ["/tomato_02.png"]
+    "board01": [
+      { "type": "image", "src": "/tomato_01.png" },
+      { "type": "image", "src": "/tomato_02.png" }
+    ]
   },
   {
     "id": "wallet-app",
@@ -166,7 +168,7 @@
         "src": "/bundesliga_01.png"
       }
     ],
-    "imageSection01": ["/bundesliga_02.png"]
+    "board01": ["/bundesliga_02.png"]
   },
   {
     "id": "adidas",
@@ -232,11 +234,11 @@
     ],
     "coverProject": [
       {
-        "type": "image",
-        "src": "/bmw_cover.png"
+        "type": "video",
+        "src": "/bmw_at2.mp4"
       }
     ],
-    "videoPortrait": ["/bmw_gif_1.gif", "/bmw_gif_2.gif"]
+    "board01": [{ "type": "video", "src": "/bmw_at2_board01.mp4" }]
   },
   {
     "id": "tinder",
@@ -259,7 +261,7 @@
       }
     ],
 
-    "imageSection01": ["/tinder_2.jpg"],
+    "board01": ["/tinder_2.jpg"],
     "demoVideo": ["/tinder_animation.mp4"]
   }
 ]

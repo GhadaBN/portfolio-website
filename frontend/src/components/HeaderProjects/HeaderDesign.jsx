@@ -12,7 +12,6 @@ const HeaderDesign = ({
   team,
 }) => {
   const [openAccordion, setOpenAccordion] = useState(null);
-
   const toggleAccordion = (index) => {
     setOpenAccordion(openAccordion === index ? null : index);
   };
@@ -36,7 +35,6 @@ const HeaderDesign = ({
       <div className="details-wrapper">
         <div className="details-left">
           <div className="accordion">
-            {/* Render "Client" section only if client exists */}
             {client && (
               <div className="accordion-row">
                 <div

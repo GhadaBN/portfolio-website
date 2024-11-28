@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React from "react";
 import { useParams } from "react-router-dom";
 import "./Project.css";
 import projectData from "../../assets/projectsData.json";
@@ -8,7 +8,6 @@ import CaseVideo from "../../components/ProjectLayout/CaseVideo/CaseVideo";
 import VideoPortrait from "../../components/ProjectLayout/VideoPortrait/VideoPortrait";
 import CoverProject from "../../components/ProjectLayout/CoverProject/CoverProject";
 import DemoVideo from "../../components/ProjectLayout/DemoVideo/DemoVideo";
-
 import Board01 from "../../components/ProjectLayout/Board01/Board01";
 import Board02 from "../../components/ProjectLayout/Board02/Board02";
 

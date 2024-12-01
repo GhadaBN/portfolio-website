@@ -41,16 +41,6 @@ const DesignDirection = () => {
             </li>
           </ul>
         </div>
-        {/* <div id="line-4" className="line">
-          <ul className="">
-            <li>
-              <Link to="/project/bundesliga">
-                <span className="title-project">BUNDESLIGA</span>
-                <img src={assets.football_icon} className="icon" />
-              </Link>
-            </li>
-          </ul>
-        </div> */}
 
         <div id="line-5" className="line">
           <ul className="">
